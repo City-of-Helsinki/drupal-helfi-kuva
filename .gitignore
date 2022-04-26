@@ -9,6 +9,7 @@ public/themes/contrib
 public/sites/default/files
 vendor
 helfi-test-automation-python/
+public/sites/simpletest/
 
 # Ignore the folder created by PhpStorm
 .idea/*
@@ -22,3 +23,4 @@ helfi-test-automation-python/
 
 !*.gitkeep
 !*.keepme
+.phpunit.*
