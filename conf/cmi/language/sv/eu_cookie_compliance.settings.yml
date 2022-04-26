@@ -1,0 +1,5 @@
+popup_more_info_button_message: 'Visa cookies'
+popup_find_more_button_message: 'Visa cookies'
+popup_info:
+  value: "<h2>Hel.fi använder cookies</h2>\r\n<p>Vi använder viktiga cookies på vår webbplats för att få webbplatsen att fungera. Även tredjepartscookies används om du ger oss ditt tillstånd.</p>"
+save_preferences_button_label: 'Acceptera valda cookies'

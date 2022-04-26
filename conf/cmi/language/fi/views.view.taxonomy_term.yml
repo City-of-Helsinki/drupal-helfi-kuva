@@ -1,0 +1,8 @@
+description: 'Sisältö, joka kuuluu tiettyyn taksonomiatermiin.'
+display:
+  default:
+    display_options:
+      arguments:
+        tid:
+          exception:
+            title: Kaikki

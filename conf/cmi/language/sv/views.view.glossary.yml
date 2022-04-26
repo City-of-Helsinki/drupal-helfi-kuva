@@ -1,0 +1,11 @@
+display:
+  default:
+    display_options:
+      fields:
+        title:
+          label: Titel
+        name:
+          label: Författare
+      exposed_form:
+        options:
+          submit_button: Verkställ
