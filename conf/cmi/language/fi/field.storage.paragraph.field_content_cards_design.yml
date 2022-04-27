@@ -6,3 +6,5 @@ settings:
       label: 'Suuret kortit'
     -
       label: 'Pienet kortit, harmaa tausta'
+    -
+      label: 'Suuret kortit, harmaa tausta'

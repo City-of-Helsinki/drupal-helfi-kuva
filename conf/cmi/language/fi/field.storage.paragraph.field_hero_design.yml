@@ -12,3 +12,5 @@ settings:
       label: 'Kuva alhaalla'
     -
       label: Taustakuva
+    -
+      label: Diagonaalinen

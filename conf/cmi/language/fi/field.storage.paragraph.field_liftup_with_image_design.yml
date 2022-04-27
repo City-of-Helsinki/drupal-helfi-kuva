@@ -10,3 +10,5 @@ settings:
       label: 'Kuva vasemmalla, toissijainen väri'
     -
       label: 'Taustakuva, teksti oikealla'
+    -
+      label: 'Taustakuva, teksti vasemmalla'

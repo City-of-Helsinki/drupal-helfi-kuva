@@ -4,3 +4,5 @@ settings:
       label: Täysvärinen
     -
       label: Reunustettu
+    -
+      label: 'Ei reunuksia tai taustaväriä'

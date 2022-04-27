@@ -4,3 +4,5 @@ settings:
       label: 'Palstat 50/50'
     -
       label: 'Palstat 30/70'
+    -
+      label: 'Palstat 70/30'
