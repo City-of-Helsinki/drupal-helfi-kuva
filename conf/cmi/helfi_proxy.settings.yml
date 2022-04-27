@@ -1,6 +1,6 @@
 asset_path: kuva-assets
 prefixes:
-  en: kuva-en
-  fi: kuva-fi
-  sv: kuva-sv
-  ru: kuva-ru
+  en: culture-and-leisure
+  fi: kulttuuri-ja-vapaa-aika
+  sv: kultur-och-fritid
+  ru: culture-and-leisure
