@@ -1,0 +1,6 @@
+asset_path: kuva-assets
+prefixes:
+  en: kuva-en
+  fi: kuva-fi
+  sv: kuva-sv
+  ru: kuva-ru
