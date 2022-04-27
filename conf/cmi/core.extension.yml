@@ -23,6 +23,7 @@ module:
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   editor: 0
+  editoria11y: 0
   entity: 0
   entity_reference_revisions: 0
   entity_usage: 0
@@ -40,6 +41,7 @@ module:
   helfi_api_base: 0
   helfi_base_config: 0
   helfi_charts: 0
+  helfi_contact_cards: 0
   helfi_content: 0
   helfi_gdpr_compliance: 0
   helfi_languages: 0
@@ -54,6 +56,7 @@ module:
   linkit: 0
   locale: 0
   media: 0
+  media_entity_file_replace: 0
   media_entity_soundcloud: 0
   media_library: 0
   menu_block_current_language: 0
@@ -87,6 +90,7 @@ module:
   social_media: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
   token: 0
   token_filter: 0
@@ -99,6 +103,8 @@ module:
   varnish_purge_tags: 0
   varnish_purger: 0
   view_unpublished: 0
+  views_bulk_edit: 0
+  views_bulk_operations: 0
   views_ui: 0
   pathauto: 1
   content_translation: 10
