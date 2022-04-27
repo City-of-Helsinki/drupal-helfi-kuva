@@ -2,16 +2,5 @@ display:
   default:
     display_options:
       fields:
-        user_bulk_form:
-          label: Massapäivitys
-        status:
-          label: Tila
         operations:
           label: Toimenpiteet
-      exposed_form:
-        options:
-          submit_button: Suodata
-      filters:
-        status:
-          group_info:
-            label: Tila

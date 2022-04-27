@@ -4,6 +4,3 @@ display:
       fields:
         link:
           label: Toimenpiteet
-      exposed_form:
-        options:
-          submit_button: Suodata

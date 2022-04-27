@@ -1,11 +1,7 @@
-label: 'Uudelleenkäytettävät lohkot'
 display:
   default:
     display_title: Oletus
     display_options:
-      exposed_form:
-        options:
-          submit_button: Suodata
       fields:
         langcode:
           label: Kieli
@@ -13,4 +9,3 @@ display:
           label: Muuttunut
         operations:
           label: Toimenpiteet
-      title: 'Uudelleenkäytettävät lohkot'

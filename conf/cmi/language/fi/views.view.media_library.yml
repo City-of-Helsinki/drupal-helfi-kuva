@@ -1,24 +1,9 @@
-label: Mediakirjasto
-description: 'Etsi ja ylläpidä mediatiedostoja.'
 display:
   default:
     display_options:
       fields:
         media_bulk_form:
           action_title: Toiminto
-      exposed_form:
-        options:
-          submit_button: 'Suodata tuloksia'
-      empty:
-        area_text_custom:
-          content: 'Ei mediatiedostoja saatavilla.'
-      sorts:
-        name:
-          expose:
-            label: 'Nimi (A-Z)'
-        name_1:
-          expose:
-            label: 'Nimi (Z-A)'
       filters:
         status:
           group_info:
@@ -34,14 +19,6 @@ display:
       fields:
         media_bulk_form:
           action_title: Toiminto
-        edit_media:
-          alter:
-            text: 'Muokkaa {{ name }}'
-            alt: 'Muokkaa {{ name }}'
-        delete_media:
-          alter:
-            text: 'Poista {{ name }}'
-            alt: 'Poista {{ name }}'
   widget:
     display_options:
       arguments:
@@ -49,7 +26,6 @@ display:
           exception:
             title: Kaikki
   widget_table:
-    display_title: 'Widget (taulukko)'
     display_options:
       fields:
         uid:

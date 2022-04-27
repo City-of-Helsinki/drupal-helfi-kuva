@@ -1,11 +1,7 @@
-label: 'Ajastettu sisältö'
-description: 'Etsi ja ylläpidä ajastettua sisältöä.'
 display:
   default:
+    display_title: Oletus
     display_options:
-      exposed_form:
-        options:
-          submit_button: Suodata
       fields:
         node_bulk_form:
           action_title: Toiminto
@@ -16,7 +12,6 @@ display:
         name:
           label: Kirjoittaja
         status:
-          label: Tila
           settings:
             format_custom_true: Julkaistu
             format_custom_false: Julkaisematon
@@ -34,8 +29,6 @@ display:
           expose:
             label: Sisältötyyppi
         status:
-          expose:
-            label: Tila
           group_info:
             label: Julkaisutila
             group_items:
@@ -46,19 +39,12 @@ display:
         langcode:
           expose:
             label: Kieli
-      title: 'Ajastettu sisältö'
-      empty:
-        area_text_custom:
-          content: 'Ei vielä ajastettua sisältöä.'
-    display_title: Oletus
   overview:
     display_options:
       menu:
         title: Ajastettu
       tab_options:
         title: Sisältö
-      display_description: 'Yleiskatsaus koko ajoitetusta sisällöstä.'
-    display_title: Sisältö
   user_page:
     display_options:
       menu:
@@ -69,7 +55,3 @@ display:
         uid:
           exception:
             title: Kaikki
-      empty:
-        area_text_custom:
-          content: '{{ arguments.uid }} käyttäjä ei ole ajastanut sisältöä.'
-    display_title: Käyttäjäprofiili

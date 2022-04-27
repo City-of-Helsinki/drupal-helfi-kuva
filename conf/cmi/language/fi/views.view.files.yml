@@ -1,17 +1,4 @@
-description: 'Etsi ja hallitse tiedostoja.'
 display:
-  default:
-    display_options:
-      exposed_form:
-        options:
-          submit_button: Suodata
-      fields:
-        status:
-          label: Tila
-      filters:
-        status:
-          expose:
-            label: Tila
   page_2:
     display_options:
       arguments:

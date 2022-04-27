@@ -11,15 +11,11 @@ display:
         name:
           label: Kirjoittaja
         status:
-          label: Tila
           settings:
             format_custom_false: Julkaisematon
             format_custom_true: Julkaistu
         operations:
           label: Toimenpiteet
-      exposed_form:
-        options:
-          submit_button: Suodata
       filters:
         title:
           expose:
@@ -28,8 +24,6 @@ display:
           expose:
             label: Sisältötyyppi
         status:
-          expose:
-            label: Tila
           group_info:
             label: Julkaisutila
             group_items:
@@ -46,4 +40,3 @@ display:
         title: Sisältö
       tab_options:
         title: Sisältö
-        description: 'Etsi ja hallitse sisältöä'

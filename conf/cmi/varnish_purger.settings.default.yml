@@ -1,6 +1,7 @@
-dependencies: { }
+uuid: 6f3fe6ea-c153-4556-9d4e-f45719242c17
 langcode: en
 status: true
+dependencies: {  }
 id: default
 name: varnish
 invalidationtype: tag
