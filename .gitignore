@@ -13,9 +13,10 @@ public/sites/simpletest/
 
 # Ignore the folder created by PhpStorm
 .idea/*
+public/sites/default/local.settings.php
 
 *.sql
-.env.local
+*.env.local
 
 # Ignore OSX generated files
 ._*
