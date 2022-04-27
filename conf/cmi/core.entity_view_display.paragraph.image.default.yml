@@ -1,4 +1,4 @@
-uuid: 858ab40e-9682-426c-a7c2-cd3016939a76
+uuid: 6b5f5d94-8e3c-4fd9-8521-f419931e8973
 langcode: en
 status: true
 dependencies:
@@ -24,7 +24,7 @@ content:
     weight: 0
     region: content
   field_image_caption:
-    type: basic_string
+    type: text_span
     label: inline
     settings: {  }
     third_party_settings: {  }

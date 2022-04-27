@@ -13,6 +13,8 @@ module:
   config_rewrite: 0
   config_translation: 0
   config_update: 0
+  content_lock: 0
+  content_lock_timeout: 0
   crop: 0
   ctools: 0
   datetime: 0
@@ -21,6 +23,7 @@ module:
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   editor: 0
+  editoria11y: 0
   entity: 0
   entity_reference_revisions: 0
   entity_usage: 0
@@ -36,9 +39,9 @@ module:
   hdbt_component_library: 0
   hdbt_content: 0
   helfi_api_base: 0
-  helfi_azure_fs: 0
   helfi_base_config: 0
   helfi_charts: 0
+  helfi_contact_cards: 0
   helfi_content: 0
   helfi_gdpr_compliance: 0
   helfi_languages: 0
@@ -46,6 +49,7 @@ module:
   helfi_platform_config: 0
   helfi_proxy: 0
   helfi_toc: 0
+  helfi_tunnistamo: 0
   image: 0
   image_style_quality: 0
   language: 0
@@ -53,6 +57,7 @@ module:
   linkit: 0
   locale: 0
   media: 0
+  media_entity_file_replace: 0
   media_entity_soundcloud: 0
   media_library: 0
   menu_block_current_language: 0
@@ -65,12 +70,18 @@ module:
   migrate: 0
   node: 0
   oembed_providers: 0
+  openid_connect: 0
   options: 0
   page_cache: 0
   paragraphs_asymmetric_translation_widgets: 0
   paragraphs_library: 0
   path: 0
   path_alias: 0
+  purge: 0
+  purge_drush: 0
+  purge_processor_cron: 0
+  purge_queuer_coretags: 0
+  purge_tokens: 0
   redirect: 0
   responsive_image: 0
   role_delegation: 0
@@ -81,6 +92,7 @@ module:
   social_media: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
   token: 0
   token_filter: 0
@@ -90,10 +102,15 @@ module:
   update: 0
   update_helper: 0
   user: 0
+  varnish_purge_tags: 0
+  varnish_purger: 0
   view_unpublished: 0
+  views_bulk_edit: 0
+  views_bulk_operations: 0
   views_ui: 0
   pathauto: 1
   content_translation: 10
+  externalauth: 10
   views: 10
   paragraphs: 11
   minimal: 1000

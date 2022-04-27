@@ -1,9 +1,12 @@
-uuid: 50788bec-9348-4e66-96e6-ad3cf0be55f2
+uuid: 11fab492-506a-4eb9-96be-2bd658715ffe
 langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.full_html
+    - filter.format.minimal
     - media.type.file
+    - media.type.helfi_chart
     - media.type.image
     - media.type.remote_video
     - media.type.soundcloud
@@ -14,26 +17,34 @@ dependencies:
     - block
     - config_translation
     - content_translation
+    - editoria11y
     - eu_cookie_compliance
     - file
+    - filter
     - helfi_api_base
     - locale
     - media
+    - menu_link_attributes
+    - menu_link_content
     - node
     - paragraphs
     - paragraphs_library
     - path
     - pathauto
     - redirect
+    - role_delegation
     - scheduler
+    - simple_sitemap
     - system
     - taxonomy
     - toolbar
+    - view_unpublished
+    - views_bulk_edit
 _core:
-  default_config_hash: gL2YnVBSYpVbwNP8e2zCqjjDnGuaVuwutorknewbXrI
+  default_config_hash: ObmmYGxNS3gwXYiYXXNN9BuGDoRqxkmD3bXdhWCciU0
 id: admin
-label: Admin
-weight: 2
+label: Administrator
+weight: 5
 is_admin: null
 permissions:
   - 'access administration pages'
@@ -49,6 +60,7 @@ permissions:
   - 'administer blocks'
   - 'administer eu cookie compliance categories'
   - 'administer eu cookie compliance popup'
+  - 'administer hotjar settings'
   - 'administer menu'
   - 'administer nodes'
   - 'administer paragraphs library'
@@ -57,10 +69,15 @@ permissions:
   - 'administer sitemap settings'
   - 'administer url aliases'
   - 'administer users'
+  - 'assign admin role'
+  - 'assign content_producer role'
+  - 'assign editor role'
+  - 'assign read_only role'
   - 'cancel account'
   - 'change own username'
   - 'create content translations'
   - 'create file media'
+  - 'create helfi_chart media'
   - 'create image media'
   - 'create landing_page content'
   - 'create media'
@@ -73,6 +90,7 @@ permissions:
   - 'create url aliases'
   - 'delete all revisions'
   - 'delete any file media'
+  - 'delete any helfi_chart media'
   - 'delete any image media'
   - 'delete any landing_page content'
   - 'delete any media'
@@ -83,6 +101,7 @@ permissions:
   - 'delete landing_page revisions'
   - 'delete media'
   - 'delete own file media'
+  - 'delete own helfi_chart media'
   - 'delete own image media'
   - 'delete own landing_page content'
   - 'delete own page content'
@@ -92,12 +111,14 @@ permissions:
   - 'delete remote entities'
   - 'delete terms in keywords'
   - 'edit any file media'
+  - 'edit any helfi_chart media'
   - 'edit any image media'
   - 'edit any landing_page content'
   - 'edit any page content'
   - 'edit any remote_video media'
   - 'edit any soundcloud media'
   - 'edit own file media'
+  - 'edit own helfi_chart media'
   - 'edit own image media'
   - 'edit own landing_page content'
   - 'edit own page content'
@@ -110,11 +131,12 @@ permissions:
   - 'revert landing_page revisions'
   - 'revert page revisions'
   - 'schedule publishing of nodes'
+  - 'set landing_page published on date'
+  - 'set page published on date'
   - 'translate any entity'
   - 'translate configuration'
   - 'translate editable entities'
   - 'translate file media'
-  - 'translate hauki_resource'
   - 'translate image media'
   - 'translate interface'
   - 'translate keywords taxonomy_term'
@@ -126,9 +148,14 @@ permissions:
   - 'update any media'
   - 'update content translations'
   - 'update media'
+  - 'use menu link attributes'
+  - 'use text format full_html'
+  - 'use text format minimal'
+  - 'use views bulk edit'
   - 'view all media revisions'
   - 'view all revisions'
   - 'view any unpublished content'
+  - 'view editoria11y checker'
   - 'view landing_page revisions'
   - 'view media'
   - 'view own unpublished content'
@@ -138,5 +165,3 @@ permissions:
   - 'view scheduled content'
   - 'view the administration theme'
   - 'view unpublished paragraphs'
-  - 'view any unpublished content'
-  - 'view any unpublished content'

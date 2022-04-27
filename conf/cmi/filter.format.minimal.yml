@@ -1,4 +1,4 @@
-uuid: 9531e66b-42bd-4120-8295-9f0e4a87d4af
+uuid: 70a899db-618e-4c59-bb8d-a3892e4f52b2
 langcode: en
 status: true
 dependencies:
@@ -43,7 +43,7 @@ filters:
     status: true
     weight: -50
     settings:
-      allowed_html: '<em> <strong> <ul type> <ol start type> <li> <p class=""> <a href hreflang !href accesskey id rel target title data-design data-link-text data-icon data-protocol class="">'
+      allowed_html: '<em> <strong> <ul type> <ol start type> <li> <p class=""> <a href hreflang !href accesskey id rel target title data-design data-link-text data-selected-icon data-is-external data-protocol class=""> <span role aria-* lang dir class="">'
       filter_html_help: true
       filter_html_nofollow: false
   filter_htmlcorrector:

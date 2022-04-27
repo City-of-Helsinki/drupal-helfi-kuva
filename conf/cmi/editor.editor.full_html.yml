@@ -1,4 +1,4 @@
-uuid: b1f502cd-1526-4887-9781-7ff667bc6c7b
+uuid: 7aa63066-5039-47e5-904c-cff124ce559c
 langcode: en
 status: true
 dependencies:
@@ -51,6 +51,7 @@ settings:
             - PasteFromWord
             - SpecialChar
             - Table
+            - language_selector
             - Source
   plugins:
     drupallink:

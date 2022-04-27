@@ -1,4 +1,4 @@
-uuid: 0908f3f3-ca20-47a2-b128-d9254aaa90d4
+uuid: 72bdd068-d79e-4822-8534-210696b6b049
 langcode: en
 status: true
 dependencies:
@@ -52,5 +52,6 @@ hidden:
   created: true
   langcode: true
   path: true
+  replace_file: true
   status: true
   uid: true
