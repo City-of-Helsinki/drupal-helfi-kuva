@@ -1,0 +1,20 @@
+uuid: 2fd9a042-12ed-4ce1-a1b6-d2f25a2051f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hdbt_admin
+id: hdbt_admin_content
+theme: hdbt_admin
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
