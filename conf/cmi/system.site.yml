@@ -3,7 +3,7 @@ _core:
 langcode: en
 uuid: 6f6ef33d-b0d8-49f0-af1c-297cb1a43993
 name: 'Culture and leisure'
-mail: admin@example.com
+mail: drupal@hel.fi
 slogan: ''
 page:
   403: ''

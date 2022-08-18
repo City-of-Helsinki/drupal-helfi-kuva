@@ -1,0 +1,10 @@
+uuid: e74f7891-452d-43c2-974c-a879ed8e8363
+langcode: en
+status: true
+dependencies: {  }
+id: phasing_item
+label: 'Phasing item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
