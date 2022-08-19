@@ -38,6 +38,7 @@ settings:
       liftup_with_image: liftup_with_image
       content_cards: content_cards
       content_liftup: content_liftup
+      event_list: event_list
       from_library: from_library
       remote_video: remote_video
       phasing: phasing
@@ -64,6 +65,9 @@ settings:
         enabled: true
       content_liftup:
         weight: -32
+        enabled: true
+      event_list:
+        weight: 30
         enabled: true
       from_library:
         weight: 21
