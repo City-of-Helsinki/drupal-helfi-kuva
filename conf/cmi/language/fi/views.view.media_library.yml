@@ -5,9 +5,6 @@ display:
       fields:
         media_bulk_form:
           action_title: Toiminto
-      empty:
-        area_text_custom:
-          content: 'Ei mediatiedostoja saatavilla.'
       filters:
         status:
           group_info:

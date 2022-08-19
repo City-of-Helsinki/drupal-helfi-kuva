@@ -14,12 +14,6 @@ display:
             format_custom_true: Julkaistu
         operations:
           label: Toimenpiteet
-      exposed_form:
-        options:
-          submit_button: Suodata
-      empty:
-        area_text_custom:
-          content: 'Ei mediatiedostoja saatavilla.'
       filters:
         status:
           group_info:

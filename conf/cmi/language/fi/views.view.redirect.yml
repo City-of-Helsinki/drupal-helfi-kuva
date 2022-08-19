@@ -1,7 +1,3 @@
 display:
   default:
     display_title: Oletus
-    display_options:
-      exposed_form:
-        options:
-          submit_button: Suodata

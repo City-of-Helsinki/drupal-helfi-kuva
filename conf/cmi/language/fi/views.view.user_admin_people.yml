@@ -7,9 +7,6 @@ display:
           label: Tila
         operations:
           label: Toimenpiteet
-      exposed_form:
-        options:
-          submit_button: Suodata
       filters:
         status:
           group_info:

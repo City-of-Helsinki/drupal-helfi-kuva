@@ -18,9 +18,6 @@ display:
             format_custom_true: Julkaistu
         operations:
           label: Toimenpiteet
-      exposed_form:
-        options:
-          submit_button: Suodata
       filters:
         title:
           expose:
@@ -47,4 +44,3 @@ display:
         title: Sisältö
       tab_options:
         title: Sisältö
-        description: 'Etsi ja hallitse sisältöä'

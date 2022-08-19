@@ -1,5 +1,6 @@
 display:
   default:
+    display_title: Förvald
     display_options:
       fields:
         node_bulk_form:
@@ -41,7 +42,6 @@ display:
         langcode:
           expose:
             label: Språk
-    display_title: Förvald
   overview:
     display_options:
       menu:
