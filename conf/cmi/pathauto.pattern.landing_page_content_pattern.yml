@@ -1,4 +1,4 @@
-uuid: c9ddc134-4609-4695-ace0-b01ac6e69dbf
+uuid: 6c2a26cd-1609-45a0-a49b-c7fb8202255c
 langcode: en
 status: true
 dependencies:
@@ -12,13 +12,13 @@ type: 'canonical_entities:node'
 pattern: '[node:menu-link:parents:join-path]/[node:title]'
 selection_criteria:
   bbac8406-a5b0-41da-b72f-b79434db6b98:
-    id: 'entity_bundle:node'
-    negate: false
-    uuid: bbac8406-a5b0-41da-b72f-b79434db6b98
-    context_mapping:
-      node: node
+    id: node_type
     bundles:
       landing_page: landing_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: bbac8406-a5b0-41da-b72f-b79434db6b98
 selection_logic: and
 weight: -5
 relationships: {  }

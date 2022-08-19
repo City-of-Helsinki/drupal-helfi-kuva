@@ -1,4 +1,4 @@
-uuid: 347149f7-ef7a-47a1-b1de-93c60f527610
+uuid: dd596106-38c5-4db5-8eef-e8e13172afdf
 langcode: en
 status: true
 dependencies:
@@ -21,11 +21,11 @@ settings:
   label: 'Branding - Navigation'
   label_display: '0'
   provider: menu_block_current_language
-  level: 1
-  expand_all_items: false
-  depth: 0
   translation_providers:
     views: views
     menu_link_content: menu_link_content
     default: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
 visibility: {  }

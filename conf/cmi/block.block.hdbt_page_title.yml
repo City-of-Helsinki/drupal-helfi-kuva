@@ -1,4 +1,4 @@
-uuid: 85ceccf7-9b1b-44a5-9429-0a0270e08853
+uuid: ba8fe67f-b642-4162-a6c4-713e2a515172
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ _core:
   default_config_hash: cWAyHuLWbIx_Tsd04YPaUUGBOdvtYeKIjFXBXJhmi2w
 id: hdbt_page_title
 theme: hdbt
-region: content
-weight: -12
+region: before_content
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
@@ -19,4 +19,12 @@ settings:
   label: 'Page title'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      unit: unit
+      service: service
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

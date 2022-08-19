@@ -1,5 +1,4 @@
 label: Innehåll
-description: 'Hitta och hantera innehåll.'
 display:
   default:
     display_title: Förvald
@@ -10,7 +9,6 @@ display:
           label: Titel
         type:
           label: Innehållstyp
-          separator: ', '
         name:
           label: Författare
         status:
@@ -18,27 +16,8 @@ display:
           settings:
             format_custom_false: 'Ej publicerad'
             format_custom_true: Publicerad
-        changed:
-          label: Uppdaterad
         operations:
           label: Funktioner
-      pager:
-        options:
-          tags:
-            next: 'Nästa ›'
-            previous: '‹ Föregående'
-            first: '« Första'
-            last: 'Sista »'
-      exposed_form:
-        options:
-          submit_button: Filtrera
-          reset_button_label: Återställ
-          exposed_sorts_label: 'Sortera efter'
-          sort_asc_label: Stigande
-          sort_desc_label: Fallande
-      empty:
-        area_text_custom:
-          content: 'Inget innehåll tillgängligt.'
       filters:
         title:
           expose:
@@ -60,10 +39,8 @@ display:
           expose:
             label: Språk
   page_1:
-    display_title: Sida
     display_options:
       menu:
         title: Innehåll
       tab_options:
         title: Innehåll
-        description: 'Hitta och hantera innehåll'

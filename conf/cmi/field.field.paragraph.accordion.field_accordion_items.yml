@@ -1,4 +1,4 @@
-uuid: f971a1d3-9aab-447d-bc51-7fb62938a42c
+uuid: 23678696-7b4a-41c3-b94a-9232dde2ecd7
 langcode: en
 status: true
 dependencies:
@@ -23,16 +23,16 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
+    negate: 0
     target_bundles:
       accordion_item: accordion_item
-    negate: 0
     target_bundles_drag_drop:
       accordion:
         weight: 11
         enabled: false
       accordion_item:
-        weight: 13
         enabled: true
+        weight: 13
       columns:
         weight: 12
         enabled: false

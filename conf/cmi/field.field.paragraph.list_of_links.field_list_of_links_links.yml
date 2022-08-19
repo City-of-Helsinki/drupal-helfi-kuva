@@ -1,4 +1,4 @@
-uuid: 29d23d21-90cb-48e5-a577-ca3d728cbd24
+uuid: 5ef9ed58-6368-4268-8b64-9559f644f90f
 langcode: en
 status: true
 dependencies:
@@ -23,9 +23,9 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
+    negate: 0
     target_bundles:
       list_of_links_item: list_of_links_item
-    negate: 0
     target_bundles_drag_drop:
       hero:
         weight: 6
@@ -37,8 +37,8 @@ settings:
         weight: 8
         enabled: false
       list_of_links_item:
-        weight: 9
         enabled: true
+        weight: 9
       text:
         weight: 10
         enabled: false

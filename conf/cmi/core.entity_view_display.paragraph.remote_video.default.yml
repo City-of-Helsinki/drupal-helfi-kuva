@@ -1,4 +1,4 @@
-uuid: d37b83c6-415d-4859-b290-0bf1db668eca
+uuid: fb3e365b-d7be-4c86-88f5-25577adf6c76
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: MOnn4AFhzDjCTeqfjs5VvI3wK128ulmu_tPpo2VZ7YA
+  default_config_hash: F51sD0Cq9vLT0XwoXF2X3m3DwiZ9XdMB-QBwdAFxxSY
 id: paragraph.remote_video.default
 targetEntityType: paragraph
 bundle: remote_video

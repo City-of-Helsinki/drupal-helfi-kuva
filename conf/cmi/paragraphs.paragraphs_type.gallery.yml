@@ -1,13 +1,9 @@
-uuid: 6f11aff4-d61a-43fe-9241-87d1e98cdeae
+uuid: 7fb75497-949c-43d0-87c8-5e4494d3a2c5
 langcode: en
 status: true
-dependencies:
-  module:
-    - paragraphs_library
-third_party_settings:
-  paragraphs_library: {  }
+dependencies: {  }
 _core:
-  default_config_hash: mj0UGriEycIq3yk8tOz5QwjNr-QhtuKTixoBS2KImPU
+  default_config_hash: ePh7-VRbj3KOxJt0QSASzTS0y8LUOaUMbxNoeuT3UrU
 id: gallery
 label: Gallery
 icon_uuid: null

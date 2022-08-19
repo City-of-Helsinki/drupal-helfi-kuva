@@ -1,4 +1,4 @@
-uuid: 092d620e-3b32-4d37-95c0-4cc7fdc15c40
+uuid: a257a40a-508d-48fe-a93d-895ef68b372a
 langcode: en
 status: true
 dependencies:
@@ -32,6 +32,7 @@ default_value_callback: ''
 settings:
   handler: default
   handler_settings:
+    negate: '0'
     target_bundles:
       accordion: accordion
       banner: banner
@@ -44,7 +45,6 @@ settings:
       list_of_links: list_of_links
       sidebar_text: sidebar_text
       text: text
-    negate: '0'
     target_bundles_drag_drop:
       accordion:
         enabled: '1'

@@ -1,10 +1,12 @@
-uuid: 76df1416-24a5-4196-a163-893a403614fa
+uuid: 3731405b-b252-4c66-a901-24843b848747
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_show_phase_numbers
     - paragraphs.paragraphs_type.phasing
+_core:
+  default_config_hash: QfUIGnsQrMlJ3FapMiG5pWo99cMyYNhO4asvnzSBRw0
 id: paragraph.phasing.field_show_phase_numbers
 field_name: field_show_phase_numbers
 entity_type: paragraph

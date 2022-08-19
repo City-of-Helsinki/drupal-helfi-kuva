@@ -7,7 +7,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "composer/installers": "^2.0",
+        "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6.7",
         "drupal/core-composer-scaffold": "~9.4.5",
         "drupal/core-recommended": "~9.4.5",
@@ -21,10 +21,11 @@
         "drupal/helfi_proxy": "^2.2",
         "drupal/helfi_tpr": "^2.0",
         "drupal/helfi_tunnistamo": "^2.0",
-        "drush/drush": "^10.4"
+        "drush/drush": "^10.4 || ^11"
     },
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "donatj/mock-webserver": "^2.4",
         "drupal/coder": "^8.3",
         "drupal/core-dev": "^9.3",
         "mglaman/phpstan-drupal": "^1.0",
@@ -32,7 +33,8 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.0",
         "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpunit/phpunit": "~9.4.0"
+        "phpunit/phpunit": "^9.5",
+        "weitzman/drupal-test-traits": "^1.5"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -42,10 +44,10 @@
         "sort-packages": true,
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "phpstan/extension-installer": true,
             "composer/installers": true,
             "cweagans/composer-patches": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "phpstan/extension-installer": true
         }
     },
     "extra": {
@@ -89,6 +91,11 @@
             ]
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Drupal\\Tests\\dtt\\": "tests/dtt/src"
+        }
+    },
     "repositories": [
         {
             "type": "composer",
@@ -104,7 +111,7 @@
           "@lint-php",
           "@test-php"
         ],
-        "test-php": "vendor/bin/phpunit -c phpunit.xml.dist",
+        "test-php": "vendor/bin/phpunit -c $PWD/phpunit.xml.dist",
         "lint-php": "vendor/bin/phpcs --standard=Drupal",
         "copy-commit-message-script": "make copy-commit-message-script",
         "post-install-cmd": [

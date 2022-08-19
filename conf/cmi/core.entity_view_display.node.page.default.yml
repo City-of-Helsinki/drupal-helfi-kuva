@@ -1,4 +1,4 @@
-uuid: 0c41e22c-044f-4e20-82c1-d8f5707060e0
+uuid: 9b5690db-3fe6-49b9-b0b4-8ff91b76d4f3
 langcode: en
 status: true
 dependencies:
@@ -14,10 +14,11 @@ dependencies:
     - node.type.page
   module:
     - entity_reference_revisions
+    - helfi_content
     - metatag
     - user
 _core:
-  default_config_hash: sNOG6x1EvyaK2gQbe76faZgElkaHmamOzji8jvk_Ce4
+  default_config_hash: Ak9FQqRfsa6VZqgDqCS6aTUhciwdWBpCSKMVqgmkd2Q
 id: node.page.default
 targetEntityType: node
 bundle: page

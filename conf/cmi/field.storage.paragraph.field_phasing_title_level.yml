@@ -1,10 +1,12 @@
-uuid: 1413fb4f-acbc-42ce-ac41-2915d373646c
+uuid: bbda3cae-94e7-4147-963f-0a088c375e37
 langcode: en
 status: true
 dependencies:
   module:
     - options
     - paragraphs
+_core:
+  default_config_hash: JyWwHFldNEP7blRbHtO0hnYdyW1FJJElZYC9d3DJjCk
 id: paragraph.field_phasing_title_level
 field_name: field_phasing_title_level
 entity_type: paragraph

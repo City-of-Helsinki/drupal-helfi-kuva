@@ -1,4 +1,4 @@
-uuid: 22b72ead-26ec-44c7-af86-6e1e51ebd350
+uuid: 7d23a170-8437-4868-bfbe-2c26a290cae0
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,8 @@ _core:
   default_config_hash: 78yiI6vde7AAMhp5ktXyPS5VcKtVs4_JuJccNBI1K7Q
 id: sidebarcontentblock
 theme: hdbt
-region: sidebar_second
-weight: -9
+region: sidebar_first
+weight: 1
 provider: null
 plugin: sidebar_content_block
 settings:
@@ -20,4 +20,12 @@ settings:
   label: 'Sidebar content block'
   label_display: '0'
   provider: hdbt_content
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      landing_page: landing_page
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

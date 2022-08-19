@@ -1,4 +1,4 @@
-uuid: 82364c90-2ad5-4e1c-b015-2bb0505ae9a5
+uuid: 28e73ebd-171d-49e3-8612-578fde9dffb0
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.phasing_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: Uz6_MQBNBBoHF4Md5d8qS576ARUZnKEs2v8bSH-r8W0
 id: paragraph.phasing.field_phasing_item
 field_name: field_phasing_item
 entity_type: paragraph

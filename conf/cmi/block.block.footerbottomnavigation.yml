@@ -1,4 +1,4 @@
-uuid: d23ba35b-9311-4073-947c-38031b75079c
+uuid: a564eeea-5e66-4453-aa12-81f2484b899b
 langcode: en
 status: true
 dependencies:
@@ -21,11 +21,11 @@ settings:
   label: 'Footer - Bottom navigation'
   label_display: '0'
   provider: menu_block_current_language
-  level: 1
-  expand_all_items: false
-  depth: 1
   translation_providers:
     views: views
     menu_link_content: menu_link_content
-    default: '0'
+    default: 0
+  level: 1
+  depth: 1
+  expand_all_items: false
 visibility: {  }

@@ -1,4 +1,4 @@
-uuid: 0c7bac65-0b36-4725-af02-8d7b197a43c3
+uuid: f1208548-fdf8-4a4c-8565-324c35e9f6d6
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,6 @@ dependencies:
     - paragraphs.paragraphs_type.columns
     - paragraphs.paragraphs_type.content_cards
     - paragraphs.paragraphs_type.from_library
-    - paragraphs.paragraphs_type.gallery
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.list_of_links
     - paragraphs.paragraphs_type.remote_video
@@ -16,7 +15,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: gATHkNTACua6eFh6GKtSR2EMJKI4dF0YuGFMpmk9n80
+  default_config_hash: BvFdVXir65VaPvxsRZKF_IbZXjpzpQj0d5LJo4ltLu4
 id: node.article.field_content
 field_name: field_content
 entity_type: node
@@ -50,14 +49,14 @@ settings:
         weight: -16
         enabled: false
       columns:
+        enabled: true
         weight: -26
-        enabled: true
       content_cards:
+        enabled: true
         weight: -22
-        enabled: true
       from_library:
-        weight: 21
         enabled: true
+        weight: 21
       gallery:
         weight: -24
         enabled: false
@@ -68,21 +67,21 @@ settings:
         weight: -18
         enabled: false
       image:
-        weight: -25
         enabled: true
+        weight: -25
       liftup_with_image:
         weight: -15
         enabled: false
       list_of_links:
-        weight: -23
         enabled: true
+        weight: -23
       list_of_links_item:
         weight: -17
         enabled: false
       remote_video:
+        enabled: true
         weight: 27
-        enabled: true
       text:
-        weight: -27
         enabled: true
+        weight: -27
 field_type: entity_reference_revisions

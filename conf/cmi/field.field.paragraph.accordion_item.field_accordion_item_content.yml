@@ -1,4 +1,4 @@
-uuid: d5eebe09-ce57-4281-ab39-a2b8962c64a1
+uuid: a01f94ff-620a-4587-9d75-967a69e27c26
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,12 @@ dependencies:
     - paragraphs.paragraphs_type.accordion_item
     - paragraphs.paragraphs_type.columns
     - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.phasing
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: PDdOEj1wWo6TbYcJlmxOOXdOHcDNiKZL0CI7053DL2o
+  default_config_hash: '-v47AUzKLZz0IEKFdVjJ-DxyA4WjNiYZFTBaSj0IYHk'
 id: paragraph.accordion_item.field_accordion_item_content
 field_name: field_accordion_item_content
 entity_type: paragraph
@@ -25,12 +26,12 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
+    negate: 0
     target_bundles:
       columns: columns
       image: image
       text: text
       phasing: phasing
-    negate: 0
     target_bundles_drag_drop:
       accordion:
         weight: 12
@@ -42,8 +43,8 @@ settings:
         weight: 23
         enabled: false
       columns:
-        weight: 14
         enabled: true
+        weight: 14
       content_cards:
         weight: 25
         enabled: false
@@ -63,8 +64,8 @@ settings:
         weight: 17
         enabled: false
       image:
-        weight: 18
         enabled: true
+        weight: 18
       liftup_with_image:
         weight: 32
         enabled: false
@@ -93,8 +94,8 @@ settings:
         weight: 38
         enabled: false
       text:
-        weight: 22
         enabled: true
+        weight: 22
       unit_search:
         weight: 40
         enabled: false

@@ -1,4 +1,4 @@
-uuid: 1cfe03e3-67e6-4ee1-8ab1-3f260e917531
+uuid: 5f53c178-b8ce-4540-abf5-919bb9f266e5
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: z5HcA-kCryhCEDDUh3GMvbVm_xuff7CohDimxV11670
+  default_config_hash: PW4d3mI32Txzxw6-lJRypROkivZ5BfDWMjLnABgARqA
 id: paragraph.chart.default
 targetEntityType: paragraph
 bundle: chart

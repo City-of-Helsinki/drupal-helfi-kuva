@@ -1,4 +1,4 @@
-uuid: d147f114-8b3e-4034-9ccb-c2b285598a18
+uuid: 1ac77875-c9bd-48f6-b5ab-d3a18b4f6bc9
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
     module:
       - media_library
 _core:
-  default_config_hash: gwWddpnrcBNCeMMhBUs1ev70wVLY4W2RDH6KqprhheA
+  default_config_hash: GDIFCs-lTKQIMvaNZ95zofFcqpTxDYakxx02_zZFkmM
 id: media_library
 label: 'Media library'
 module: views
@@ -1315,7 +1315,7 @@ display:
             image_link: ''
             image_style: media_library
             image_loading:
-              attribute: lazy
+              attribute: eager
         name:
           id: name
           table: media_field_data

@@ -1,4 +1,4 @@
-uuid: 6cb3dbd3-61c5-43fe-bc9b-6edf1401b0fa
+uuid: a48b97c7-a3b2-46a5-8a53-33662f066663
 langcode: en
 status: true
 dependencies:
@@ -11,15 +11,15 @@ dependencies:
     - paragraphs.paragraphs_type.content_cards
     - paragraphs.paragraphs_type.content_liftup
     - paragraphs.paragraphs_type.from_library
-    - paragraphs.paragraphs_type.gallery
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.list_of_links
+    - paragraphs.paragraphs_type.phasing
     - paragraphs.paragraphs_type.remote_video
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: QzPUvR7cSwVLlIv2Wkmjn6T9gEZ-WD6hRta4Y-AShcE
+  default_config_hash: 5KAll_IAdNMvi3T0zJ6plol1FqNqYaoRoNJ_zrpj4_k
 id: node.page.field_content
 field_name: field_content
 entity_type: node
@@ -43,11 +43,10 @@ settings:
       content_liftup: content_liftup
       banner: banner
       from_library: from_library
-      remote_video: remote_video
-      chart: chart
-      contact_card_listing: contact_card_listing
-      event_list: event_list
       phasing: phasing
+      remote_video: remote_video
+      contact_card_listing: contact_card_listing
+      chart: chart
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -76,9 +75,6 @@ settings:
         enabled: true
       content_liftup:
         weight: -22
-        enabled: true
-      event_list:
-        weight: 30
         enabled: true
       from_library:
         weight: 21

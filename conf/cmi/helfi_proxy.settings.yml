@@ -1,6 +1,6 @@
-asset_path: kuva-assets
+asset_path: rekry-assets
 prefixes:
-  en: culture-and-leisure
-  fi: kulttuuri-ja-vapaa-aika
-  sv: kultur-och-fritid
-  ru: culture-and-leisure
+  en: rekry-en
+  fi: rekry-fi
+  sv: rekry-sv
+  ru: rekry-ru
