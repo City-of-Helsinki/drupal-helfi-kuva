@@ -1,4 +1,4 @@
-uuid: 71da37d0-a071-4650-a601-19856bb3a9d7
+uuid: 7c0b3ab0-7027-4717-baf9-4a5f35d329e4
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,7 @@ _core:
 id: main_navigation_level_2
 theme: hdbt
 region: sidebar_first
-weight: -12
+weight: 0
 provider: null
 plugin: 'menu_block_current_language:main'
 settings:
@@ -29,4 +29,12 @@ settings:
     views: views
     menu_link_content: menu_link_content
     default: '0'
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+      landing_page: landing_page

@@ -1,5 +1,6 @@
 cancel_confirm:
   subject: 'Begäran om avslutande av konto för [user:display-name] på [site:name]'
+  body: "[user:display-name]\r\n\r\nEn begäran om att avsluta ditt konto har gjorts på [site:name].\r\n\r\nDu kan nu avsluta ditt konto på [site:url-brief] genom att klicka på den här länken eller kopiera och klistra in den i din webbläsare:\r\n\r\n[user:cancel-url]\r\n\r\nOBS: Uppsägningen av ditt konto kan inte ångras.\r\n\r\nDenna länk går ut om en dag och ingenting kommer att hända om den inte används.\r\n\r\n--  [site:name]"
 password_reset:
   subject: 'Ersättande inloggningsuppgifter för [user:display-name] på [site:name]'
   body: "[user:display-name],\r\n\r\nEn begäran om att återställa lösenordet för ditt kontot har gjorts på [site:name].\r\n\r\nDu kan nu logga in genom att klicka på länken eller kopiera och klistra in den i din webbläsare.\r\n\r\n[user:one-time-login-url]\r\n\r\nDenna länk kan bara användas en gång och kommer ta dig till en sida där du kan ange ditt lösenord. Denna länk upphör efter en dag och inget kommer hända om du inte använder den.\r\n\r\n--  Administratörerna på [site:name]"

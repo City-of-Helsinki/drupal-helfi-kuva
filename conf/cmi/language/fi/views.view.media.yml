@@ -44,14 +44,14 @@ display:
             offset_label: Offset
       exposed_form:
         options:
-          submit_button: Suodatus
+          submit_button: Filter
           reset_button_label: Palauta
           exposed_sorts_label: Lajittele
           sort_asc_label: Asc
           sort_desc_label: Desc
       empty:
         area_text_custom:
-          content: 'Ei mediaa saatavilla.'
+          content: 'No media available.'
       filters:
         name:
           expose:

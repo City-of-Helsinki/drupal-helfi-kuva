@@ -1,4 +1,4 @@
-uuid: 4192fa3f-bf03-4881-a8d9-4b9d8c6bc45f
+uuid: fd5518b7-e696-4815-8f39-64f9dfe4e022
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - media_library
     - text
 _core:
-  default_config_hash: ZzwlJ2SwF1RVqS2C99xcFRBm5QTF6HqHjtgtQTBxAq8
+  default_config_hash: xTZ_QboVaHSjUUn0bJd0FO1rW46IV5DgmCZDyQY2sqc
 id: paragraph.chart.default
 targetEntityType: paragraph
 bundle: chart
@@ -51,5 +51,4 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  field_iframe_title: true
   status: true

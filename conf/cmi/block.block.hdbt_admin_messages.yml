@@ -1,4 +1,4 @@
-uuid: 29c10d34-5109-4118-9e85-9fbbd6ac01c5
+uuid: 8837d6b0-32c9-4a52-9960-b9f44d4bff5e
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - hdbt_admin
 _core:
-  default_config_hash: lXicDCw1mJycXa-lVLg25akK5VJta8Mu9I503mW9uzg
+  default_config_hash: lFlSS_nx667sE0BHPDby4HbWPIa2JyeoFn33Q0uYgtY
 id: hdbt_admin_messages
 theme: hdbt_admin
 region: highlighted

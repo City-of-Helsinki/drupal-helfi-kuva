@@ -1,4 +1,4 @@
-uuid: 23d387a3-c91b-4b06-83bf-76c19187953e
+uuid: cd90c897-6c93-4219-9f70-096a1b27628d
 langcode: en
 status: true
 dependencies:
@@ -19,7 +19,7 @@ base_field: id
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Master
     display_plugin: default
     position: 0
     display_options:
@@ -79,7 +79,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: false
+            link_to_entity: true
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -232,7 +232,7 @@ display:
           entity_field: langcode
           plugin_id: field
           label: Language
-          exclude: true
+          exclude: false
           alter:
             alter_text: false
             text: ''
@@ -620,7 +620,9 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items:
-              - {  }
+              1: {  }
+              2: {  }
+              3: {  }
         type:
           id: type
           table: paragraphs_item_field_data
@@ -747,7 +749,7 @@ display:
       filter_groups:
         operator: AND
         groups:
-          - AND
+          1: AND
       style:
         type: table
         options:

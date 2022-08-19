@@ -1,4 +1,4 @@
-uuid: d5eebe09-ce57-4281-ab39-a2b8962c64a1
+uuid: a01f94ff-620a-4587-9d75-967a69e27c26
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,12 @@ dependencies:
     - paragraphs.paragraphs_type.accordion_item
     - paragraphs.paragraphs_type.columns
     - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.phasing
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: PDdOEj1wWo6TbYcJlmxOOXdOHcDNiKZL0CI7053DL2o
+  default_config_hash: '-v47AUzKLZz0IEKFdVjJ-DxyA4WjNiYZFTBaSj0IYHk'
 id: paragraph.accordion_item.field_accordion_item_content
 field_name: field_accordion_item_content
 entity_type: paragraph

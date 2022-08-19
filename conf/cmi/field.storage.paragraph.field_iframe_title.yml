@@ -1,9 +1,11 @@
-uuid: badc830d-7261-4bf8-8562-44aff26d68b8
+uuid: 28f1da22-fe4e-401c-90c4-e5b7aa202671
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: 3FyHZFVBPX-qi1AFJmHcS7-24936nQ9oMX22EPuavlE
 id: paragraph.field_iframe_title
 field_name: field_iframe_title
 entity_type: paragraph
