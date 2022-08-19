@@ -1,4 +1,4 @@
-uuid: 12df4863-54f7-4b77-8ad2-ab2e04d1c87f
+uuid: 6268d79e-2535-4e25-a8ca-34223ab7fb1c
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ _core:
 id: heroblock
 theme: hdbt
 region: before_content
-weight: -11
+weight: -5
 provider: null
 plugin: hero_block
 settings:

@@ -1,11 +1,11 @@
-label: 'Ajastettu sisältö'
-description: 'Etsi ja ylläpidä ajastettua sisältöä.'
+label: 'Scheduled content'
+description: 'Find and manage scheduled content.'
 display:
   default:
     display_options:
       exposed_form:
         options:
-          submit_button: Suodatus
+          submit_button: Filter
           reset_button_label: Palauta
           exposed_sorts_label: Lajittele
           sort_asc_label: Asc
@@ -63,10 +63,10 @@ display:
         langcode:
           expose:
             label: Kieli
-      title: 'Ajastettu sisältö'
+      title: 'Scheduled Content'
       empty:
         area_text_custom:
-          content: 'Ei vielä ajastettua sisältöä.'
+          content: 'No scheduled content.'
     display_title: Oletus
   overview:
     display_options:
@@ -74,8 +74,8 @@ display:
         title: Ajastettu
       tab_options:
         title: Sisältö
-      display_description: 'Yleiskatsaus koko ajoitetusta sisällöstä.'
-    display_title: Sisältö
+      display_description: 'Overview of all scheduled content, as a tab on main ''content admin'' page'
+    display_title: 'Content Overview'
   user_page:
     display_options:
       menu:
@@ -88,5 +88,5 @@ display:
             title: Kaikki
       empty:
         area_text_custom:
-          content: '{{ arguments.uid }} käyttäjä ei ole ajastanut sisältöä.'
-    display_title: Käyttäjäprofiili
+          content: 'No scheduled content for user {{ arguments.uid }}'
+    display_title: 'User profile tab'

@@ -31,7 +31,7 @@ display:
             last: 'Viimeinen »'
       exposed_form:
         options:
-          submit_button: Suodatus
+          submit_button: Filter
           reset_button_label: Palauta
           exposed_sorts_label: Lajittele
           sort_asc_label: Asc
@@ -66,3 +66,4 @@ display:
         title: Sisältö
       tab_options:
         title: Sisältö
+        description: 'Find and manage content'

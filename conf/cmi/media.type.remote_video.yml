@@ -1,4 +1,4 @@
-uuid: 2aa0ec45-42ba-4911-b846-661b012e4eaf
+uuid: 27c78ede-3a1e-46d0-be98-99600ee07341
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ third_party_settings:
 _core:
   default_config_hash: GPjIi9MrHVi7nlw_vlwKWBVl87xGuOfiebbDTBkVRfQ
 id: remote_video
-label: 'Video ulkoisesta palvelusta'
-description: 'Mediatyyppi ulkoisten palveluiden, kuten YouTube tarjoamille videoille.'
+label: 'Remote video'
+description: 'Media type for remote media from external sources.'
 source: 'oembed:video'
 queue_thumbnail_downloads: false
 new_revision: false

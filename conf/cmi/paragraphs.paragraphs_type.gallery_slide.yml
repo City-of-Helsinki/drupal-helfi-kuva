@@ -1,9 +1,9 @@
-uuid: 23a5a28b-e69d-42f5-857c-9077facbfbfe
+uuid: 9c5f23d6-4569-4a53-8f6f-5b855b6449a0
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: L8uP-RIaTgYX_jt7seKb2nUAQgfc7rED0pP30-QZhAo
+  default_config_hash: FhEZmWRPu10V180qBVZmSd9KFSSmse4KJwYowXZsr9g
 id: gallery_slide
 label: 'Gallery slide'
 icon_uuid: null

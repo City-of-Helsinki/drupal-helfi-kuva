@@ -1,4 +1,4 @@
-uuid: 5f3d0441-e765-4523-b7e0-775990c2753f
+uuid: 9657124b-c5c5-4887-9976-a47e6590da53
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ third_party_settings:
   allowed_formats:
     allowed_formats: {  }
 _core:
-  default_config_hash: O8vPudKTvChcIUVQOwhOum9HlfZDtFJvmn0Yha6GmJw
+  default_config_hash: 8R816KbWZKNUvPgCHKY1nRR0RRNTUOhsmU9s2eQCy-c
 id: paragraph.hero.field_hero_desc
 field_name: field_hero_desc
 entity_type: paragraph
