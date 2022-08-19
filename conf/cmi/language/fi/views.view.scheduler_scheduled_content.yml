@@ -1,25 +1,46 @@
+label: 'Scheduled content'
+description: 'Find and manage scheduled content.'
 display:
   default:
-    display_title: Oletus
     display_options:
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Palauta
+          exposed_sorts_label: Lajittele
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          tags:
+            previous: '‹ edellinen'
+            next: 'seuraava ›'
+            first: '« ensimmäinen'
+            last: 'viimeinen »'
       fields:
         node_bulk_form:
           action_title: Toiminto
         title:
           label: Otsikko
+          separator: ', '
         type:
           label: Sisältötyyppi
+          separator: ', '
         name:
           label: Kirjoittaja
+          separator: ', '
         status:
           label: Tila
           settings:
             format_custom_true: Julkaistu
             format_custom_false: Julkaisematon
+          separator: ', '
         publish_on:
           label: Julkaisuaika
+          separator: ', '
         unpublish_on:
           label: 'Ajastettu piilottaminen'
+          separator: ', '
         operations:
           label: Toimenpiteet
       filters:
@@ -42,12 +63,19 @@ display:
         langcode:
           expose:
             label: Kieli
+      title: 'Scheduled Content'
+      empty:
+        area_text_custom:
+          content: 'No scheduled content.'
+    display_title: Oletus
   overview:
     display_options:
       menu:
         title: Ajastettu
       tab_options:
         title: Sisältö
+      display_description: 'Overview of all scheduled content, as a tab on main ''content admin'' page'
+    display_title: 'Content Overview'
   user_page:
     display_options:
       menu:
@@ -58,3 +86,7 @@ display:
         uid:
           exception:
             title: Kaikki
+      empty:
+        area_text_custom:
+          content: 'No scheduled content for user {{ arguments.uid }}'
+    display_title: 'User profile tab'
