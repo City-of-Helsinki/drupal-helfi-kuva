@@ -33,6 +33,8 @@ module:
   file: 0
   filelog: 0
   filter: 0
+  flysystem: 0
+  flysystem_azure: 0
   focal_point: 0
   gin_toolbar: 0
   hdbt_admin_editorial: 0
@@ -40,15 +42,19 @@ module:
   hdbt_component_library: 0
   hdbt_content: 0
   helfi_api_base: 0
+  helfi_azure_fs: 0
   helfi_base_config: 0
   helfi_charts: 0
   helfi_contact_cards: 0
   helfi_content: 0
+  helfi_events: 0
   helfi_gdpr_compliance: 0
   helfi_languages: 0
   helfi_media: 0
   helfi_platform_config: 0
+  helfi_proxy: 0
   helfi_toc: 0
+  helfi_tunnistamo: 0
   image: 0
   image_style_quality: 0
   language: 0
@@ -70,12 +76,18 @@ module:
   mysql: 0
   node: 0
   oembed_providers: 0
+  openid_connect: 0
   options: 0
   page_cache: 0
   paragraphs_asymmetric_translation_widgets: 0
   paragraphs_library: 0
   path: 0
   path_alias: 0
+  purge: 0
+  purge_drush: 0
+  purge_processor_cron: 0
+  purge_queuer_coretags: 0
+  purge_tokens: 0
   redirect: 0
   responsive_image: 0
   role_delegation: 0
@@ -96,21 +108,24 @@ module:
   update: 0
   update_helper: 0
   user: 0
+  varnish_purge_tags: 0
+  varnish_purger: 0
   view_unpublished: 0
   views_bulk_edit: 0
   views_bulk_operations: 0
   views_ui: 0
   pathauto: 1
   content_translation: 10
+  externalauth: 10
   views: 10
   paragraphs: 11
   minimal: 1000
   eu_cookie_compliance: 1001
 theme:
-  stark: 0
-  stable9: 0
   claro: 0
-  gin: 0
+  stable9: 0
   hdbt: 0
+  gin: 0
   hdbt_admin: 0
+  hdbt_subtheme: 0
 profile: minimal
