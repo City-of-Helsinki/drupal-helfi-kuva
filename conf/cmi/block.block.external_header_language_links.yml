@@ -2,8 +2,6 @@ uuid: 849ea602-8e1e-456e-ab3c-f863f4c0804d
 langcode: en
 status: true
 dependencies:
-  config:
-    - header-language-links
   module:
     - helfi_navigation
   theme:

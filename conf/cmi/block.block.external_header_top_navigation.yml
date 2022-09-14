@@ -2,8 +2,6 @@ uuid: ec6b5d6e-5852-4a93-9c23-904928590be8
 langcode: en
 status: true
 dependencies:
-  config:
-    - header-top-navigation
   module:
     - helfi_navigation
   theme:

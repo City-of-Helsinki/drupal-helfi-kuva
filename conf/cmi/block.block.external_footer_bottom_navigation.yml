@@ -2,8 +2,6 @@ uuid: e68e887e-105a-40ce-b219-fe184ec4f82c
 langcode: en
 status: true
 dependencies:
-  config:
-    - footer-bottom-navigation
   module:
     - helfi_navigation
   theme:
