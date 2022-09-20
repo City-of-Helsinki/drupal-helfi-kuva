@@ -1,0 +1,22 @@
+uuid: 9d5d860f-7df6-4e39-9cfd-5ec6fb88054b
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_announcements
+  theme:
+    - hdbt
+_core:
+  default_config_hash: nPsSgGDACtok73KHv6ccOjR-yjVDExpWm3is6DPDOMY
+id: announcements
+theme: hdbt
+region: before_content
+weight: -12
+provider: null
+plugin: announcements
+settings:
+  id: announcements
+  label: Announcements
+  label_display: '0'
+  provider: helfi_announcements
+visibility: {  }

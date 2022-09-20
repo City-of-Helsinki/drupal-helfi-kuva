@@ -13,7 +13,6 @@ dependencies:
   module:
     - hdbt_admin_editorial
     - paragraphs
-    - text
 _core:
   default_config_hash: mfEXjVgi84hylYQ4Fm1Aw3_Y7yxFVnV9Ls2F1qAIziM
 id: paragraph.accordion.default
@@ -76,4 +75,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_accordion_description: true
+  field_accordion_title: true
+  field_accordion_title_level: true
   status: true

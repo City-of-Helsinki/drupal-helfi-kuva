@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: 6CZIzFifRq3qbdq3n3nDpEOO4hWIQtKOAQNPvGNGKeM
+  default_config_hash: XcgosOepJxgEPlITLHaf0iS0kKeA_-Zus_XcQGrN-Rg
 langcode: en
 cancel_confirm:
   subject: 'Account cancellation request for [user:display-name] at [site:name]'

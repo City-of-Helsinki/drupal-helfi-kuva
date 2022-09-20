@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.paragraphs_library_item.summary
   module:
+    - paragraphs
     - paragraphs_library
 _core:
   default_config_hash: XstmA6WDBHCnXqwpkJ4hDHdn8ELRpS3gIl9yxbsjIyM
@@ -22,7 +23,7 @@ content:
     weight: 0
     region: content
   paragraphs:
-    type: library_item_summary
+    type: paragraph_summary
     label: hidden
     settings: {  }
     third_party_settings: {  }
