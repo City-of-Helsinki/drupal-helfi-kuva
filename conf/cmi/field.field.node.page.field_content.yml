@@ -43,11 +43,12 @@ settings:
       content_liftup: content_liftup
       banner: banner
       from_library: from_library
-      phasing: phasing
       remote_video: remote_video
+      map: map
+      chart: chart
       contact_card_listing: contact_card_listing
       event_list: event_list
-      chart: chart
+      phasing: phasing
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -104,6 +105,9 @@ settings:
       list_of_links_item:
         weight: -17
         enabled: false
+      map:
+        weight: -20
+        enabled: true
       phasing:
         weight: 50
         enabled: true

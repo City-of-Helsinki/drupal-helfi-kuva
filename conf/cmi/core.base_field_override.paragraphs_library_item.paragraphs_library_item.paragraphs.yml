@@ -1,4 +1,4 @@
-uuid: a257a40a-508d-48fe-a93d-895ef68b372a
+uuid: cc629d9e-8120-447f-a048-8c21b8c52920
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,7 @@ dependencies:
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.liftup_with_image
     - paragraphs.paragraphs_type.list_of_links
+    - paragraphs.paragraphs_type.map
     - paragraphs.paragraphs_type.sidebar_text
     - paragraphs.paragraphs_type.text
   module:
@@ -44,6 +45,7 @@ settings:
       list_of_links: list_of_links
       sidebar_text: sidebar_text
       text: text
+      map: map
     negate: '0'
     target_bundles_drag_drop:
       accordion:
@@ -87,6 +89,9 @@ settings:
         weight: '33'
       list_of_links_item:
         weight: '34'
+        enabled: 0
+      map:
+        weight: '35'
         enabled: 0
       remote_video:
         weight: '36'

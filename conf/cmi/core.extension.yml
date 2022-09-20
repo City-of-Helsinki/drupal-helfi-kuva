@@ -16,7 +16,6 @@ module:
   content_lock: 0
   content_lock_timeout: 0
   crop: 0
-  ctools: 0
   datetime: 0
   dblog: 0
   diff: 0
@@ -41,6 +40,7 @@ module:
   hdbt_admin_tools: 0
   hdbt_component_library: 0
   hdbt_content: 0
+  helfi_announcements: 0
   helfi_api_base: 0
   helfi_azure_fs: 0
   helfi_base_config: 0
@@ -51,7 +51,8 @@ module:
   helfi_gdpr_compliance: 0
   helfi_languages: 0
   helfi_media: 0
-  helfi_navigation: 0
+  helfi_media_map: 0
+  helfi_media_map_config: 0
   helfi_platform_config: 0
   helfi_proxy: 0
   helfi_toc: 0
@@ -90,13 +91,17 @@ module:
   purge_queuer_coretags: 0
   purge_tokens: 0
   redirect: 0
+  redis: 0
   responsive_image: 0
+  rest: 0
   role_delegation: 0
   scheduler: 0
   select2: 0
   select2_icon: 0
+  serialization: 0
   simple_sitemap: 0
   social_media: 0
+  stage_file_proxy: 0
   system: 0
   taxonomy: 0
   telephone: 0
@@ -124,9 +129,7 @@ module:
   eu_cookie_compliance: 1001
 theme:
   claro: 0
-  stable9: 0
   hdbt: 0
   gin: 0
   hdbt_admin: 0
-  hdbt_subtheme: 0
 profile: minimal
