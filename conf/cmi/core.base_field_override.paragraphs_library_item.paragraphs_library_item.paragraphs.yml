@@ -46,6 +46,8 @@ settings:
       sidebar_text: sidebar_text
       text: text
       map: map
+      service_list: service_list
+      unit_search: unit_search
     negate: '0'
     target_bundles_drag_drop:
       accordion:
@@ -102,4 +104,10 @@ settings:
       text:
         enabled: '1'
         weight: '39'
+      service_list:
+        enabled: '1'
+        weight: '37'
+      unit_search:
+        enabled: '1'
+        weight: '31'
 field_type: entity_reference_revisions

@@ -1,6 +1,6 @@
 uuid: dbc40445-474f-44ce-a695-277575615477
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - helfi_platform_config

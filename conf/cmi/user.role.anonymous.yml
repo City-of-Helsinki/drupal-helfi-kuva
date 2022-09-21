@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - eu_cookie_compliance
+    - helfi_api_base
     - media
     - system
 _core:

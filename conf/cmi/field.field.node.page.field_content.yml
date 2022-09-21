@@ -49,6 +49,7 @@ settings:
       contact_card_listing: contact_card_listing
       event_list: event_list
       phasing: phasing
+      unit_search: unit_search
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -122,5 +123,8 @@ settings:
         enabled: false
       text:
         weight: -27
+        enabled: true
+      unit_search:
+        weight: 28
         enabled: true
 field_type: entity_reference_revisions
