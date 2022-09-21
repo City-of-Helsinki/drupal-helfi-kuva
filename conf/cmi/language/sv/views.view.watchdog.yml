@@ -17,7 +17,7 @@ display:
         message:
           label: Meddelande
           alter:
-            alt: '{{ meddelande }}'
+            alt: '{{ message }}'
         name:
           label: Användare
           separator: ', '
