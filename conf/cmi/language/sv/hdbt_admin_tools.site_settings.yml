@@ -1,3 +1,4 @@
 footer_settings:
+  footer_color: dark
   footer_top_content:
     format: full_html
