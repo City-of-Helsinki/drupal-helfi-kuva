@@ -1,4 +1,4 @@
-uuid: 00e750e1-de9a-4ece-8859-af0d62bcbbca
+uuid: defcdfdf-5f0e-4b1f-8d79-5378d6efbe74
 langcode: en
 status: true
 dependencies:
@@ -32,7 +32,7 @@ dependencies:
     - toolbar
     - view_unpublished
 _core:
-  default_config_hash: EVzxFtbOrGVTXWw2GTh1fEzzqruPEqSo84k10-BF6eA
+  default_config_hash: viSgvM0-88JonuEOigzOLS-5SZVM7AkhvD2CfKpIgFM
 id: content_producer
 label: 'Content producer'
 weight: 3
