@@ -1,3 +1,5 @@
+langcode: en
+front_page_title: 'Culture and leisure'
 asset_path: kuva-assets
 prefixes:
   en: culture-and-leisure

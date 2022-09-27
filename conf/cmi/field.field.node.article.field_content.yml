@@ -37,6 +37,7 @@ settings:
       content_cards: content_cards
       from_library: from_library
       remote_video: remote_video
+      unit_search: unit_search
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -83,5 +84,8 @@ settings:
         enabled: true
       text:
         weight: -27
+        enabled: true
+      unit_search:
+        weight: 28
         enabled: true
 field_type: entity_reference_revisions

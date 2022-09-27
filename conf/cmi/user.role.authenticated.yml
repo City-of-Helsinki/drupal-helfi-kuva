@@ -2,12 +2,15 @@ uuid: d5540107-bda6-47b2-940a-e741f1bf9a61
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.full_html
+    - filter.format.minimal
   module:
     - eu_cookie_compliance
+    - filter
     - helfi_api_base
     - media
     - system
-    - toolbar
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
@@ -16,7 +19,7 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
-  - 'access toolbar'
   - 'display eu cookie compliance popup'
   - 'view media'
   - 'view remote entities'
+  - 'access toolbar'
