@@ -4181,16 +4181,16 @@
         },
         {
             "name": "drupal/helfi_platform_config",
-            "version": "2.12.1",
+            "version": "2.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config.git",
-                "reference": "b30bc508b43c96e0ec01b130b39176c54a7990cd"
+                "reference": "a7dc9b550760b1278c877273be826e2618729aa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/b30bc508b43c96e0ec01b130b39176c54a7990cd",
-                "reference": "b30bc508b43c96e0ec01b130b39176c54a7990cd",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/a7dc9b550760b1278c877273be826e2618729aa6",
+                "reference": "a7dc9b550760b1278c877273be826e2618729aa6",
                 "shasum": ""
             },
             "require": {
@@ -4294,6 +4294,7 @@
                         "[#UHF-3631] Breadcrumb allow dashes and underscores": "https://www.drupal.org/files/issues/2020-07-23/easy_breadcrumb-allow_hyphens_underscores-3161100-2.patch"
                     },
                     "drupal/views_bulk_edit": {
+                        "[#UHF-6869] https://www.drupal.org/project/views_bulk_edit/issues/3311552": "https://git.drupalcode.org/project/views_bulk_edit/-/merge_requests/12.patch",
                         "[#UHF-4528] Declaration must be compatible": "https://raw.githubusercontent.com/City-of-Helsinki/drupal-helfi-platform-config/20af0607626b4c9adaa52c1c9773850a5c8fec3d/patches/views_bulk_edit_tests_compatible_declaration_8.x-2.6.patch"
                     }
                 }
@@ -4303,10 +4304,10 @@
             ],
             "description": "HELfi platform config",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/2.12.1",
+                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/2.12.2",
                 "issues": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/issues"
             },
-            "time": "2022-09-27T08:00:51+00:00"
+            "time": "2022-09-27T10:31:22+00:00"
         },
         {
             "name": "drupal/helfi_proxy",
