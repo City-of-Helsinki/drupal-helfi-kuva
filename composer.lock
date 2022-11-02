@@ -3574,6 +3574,58 @@
             }
         },
         {
+            "name": "drupal/filelog",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/filelog.git",
+                "reference": "2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/filelog-2.1.1.zip",
+                "reference": "2.1.1",
+                "shasum": "647180cbfcb727a057bc3556b8f571946963bba6"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10",
+                "ext-zlib": "*",
+                "php": "^8"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.1",
+                    "datestamp": "1655354915",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Burschka",
+                    "homepage": "https://github.com/cburschka",
+                    "email": "christoph@burschka.de",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Logs system events to a file.",
+            "homepage": "https://www.drupal.org/project/filelog",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://cgit.drupalcode.org/filelog",
+                "issues": "https://www.drupal.org/project/issues/filelog"
+            }
+        },
+        {
             "name": "drupal/flysystem",
             "version": "2.0.0-beta1",
             "source": {
@@ -3937,20 +3989,21 @@
         },
         {
             "name": "drupal/helfi_api_base",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-api-base.git",
-                "reference": "4eea1e45458b19a4a84bbecfd2af529c8bc6e6d9"
+                "reference": "f3560b56532df468b8f5433875a7dc79bab10c1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-api-base/zipball/4eea1e45458b19a4a84bbecfd2af529c8bc6e6d9",
-                "reference": "4eea1e45458b19a4a84bbecfd2af529c8bc6e6d9",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-api-base/zipball/f3560b56532df468b8f5433875a7dc79bab10c1f",
+                "reference": "f3560b56532df468b8f5433875a7dc79bab10c1f",
                 "shasum": ""
             },
             "require": {
                 "drupal/entity": "^1.0",
+                "drupal/filelog": "^2.1",
                 "php": "^8.0",
                 "t4web/composer-lock-parser": "^1.0"
             },
@@ -3968,10 +4021,10 @@
             ],
             "description": "Helfi - API Base",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-api-base/tree/2.3.4",
+                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-api-base/tree/2.3.5",
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-api-base/issues"
             },
-            "time": "2022-10-31T06:47:40+00:00"
+            "time": "2022-11-02T08:44:03+00:00"
         },
         {
             "name": "drupal/helfi_azure_fs",
