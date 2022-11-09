@@ -1,0 +1,12 @@
+uuid: 2421d214-a0df-4911-b31a-37f6060d6577
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4NG1c_DFfBfzUCPfnwS5Sneo_G7lU_0YRfarh-p749M
+id: news_list
+label: 'News list'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
