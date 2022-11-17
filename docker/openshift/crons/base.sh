@@ -17,13 +17,13 @@ echo "Starting cron: $(date)"
 # @endcode
 
 # Uncomment this to enable TPR migration cron
-#exec "/crons/migrate-tpr.sh" &
+exec "/crons/migrate-tpr.sh" &
 # Uncomment this to enable Varnish purge cron
-#exec "/crons/purge-queue.sh" &
+exec "/crons/purge-queue.sh" &
 # Uncomment this to enable automatic translation updates.
-# exec "/crons/update-translations.sh" &
+exec "/crons/update-translations.sh" &
 # Uncomment this to enable content scheduler
-# exec "/crons/content-scheduler.sh" &
+exec "/crons/content-scheduler.sh" &
 
 while true
 do
