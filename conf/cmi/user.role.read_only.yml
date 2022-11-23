@@ -3,8 +3,10 @@ langcode: en
 status: true
 dependencies:
   module:
+    - helfi_tpr
     - paragraphs
     - toolbar
+    - view_unpublished
 _core:
   default_config_hash: syTv0h1MUcZ35TjmApRsR9znnDRN-fk-wxfZjABkkbw
 id: read_only
@@ -13,10 +15,10 @@ weight: 2
 is_admin: null
 permissions:
   - 'access toolbar'
+  - 'view any unpublished announcement content'
   - 'view any unpublished landing_page content'
   - 'view any unpublished page content'
   - 'view unpublished paragraphs'
-  - 'view any unpublished announcement content'
   - 'view unpublished tpr_errand_service'
   - 'view unpublished tpr_service'
   - 'view unpublished tpr_service_channel'
