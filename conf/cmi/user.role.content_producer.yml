@@ -21,6 +21,7 @@ dependencies:
     - file
     - filter
     - helfi_api_base
+    - helfi_tpr
     - media
     - node
     - paragraphs
@@ -44,6 +45,8 @@ permissions:
   - 'access remote entities overview'
   - 'access taxonomy overview'
   - 'access toolbar'
+  - 'access tpr_service overview'
+  - 'access tpr_unit overview'
   - 'access user profiles'
   - 'administer nodes'
   - 'administer paragraphs library'
@@ -100,11 +103,17 @@ permissions:
   - 'set landing_page published on date'
   - 'set page published on date'
   - 'translate editable entities'
+  - 'update any tpr_service'
+  - 'update any tpr_unit'
   - 'update media'
+  - 'update own tpr_service'
+  - 'update own tpr_unit'
   - 'use text format full_html'
   - 'use text format minimal'
   - 'view all media revisions'
   - 'view all revisions'
+  - 'view all tpr_service revisions'
+  - 'view all tpr_unit revisions'
   - 'view announcement revisions'
   - 'view any unpublished content'
   - 'view any unpublished landing_page content'
@@ -118,15 +127,7 @@ permissions:
   - 'view scheduled content'
   - 'view the administration theme'
   - 'view unpublished paragraphs'
-  - 'access tpr_service overview'
-  - 'access tpr_unit overview'
   - 'view unpublished tpr_errand_service'
   - 'view unpublished tpr_service'
   - 'view unpublished tpr_service_channel'
   - 'view unpublished tpr_unit'
-  - 'update any tpr_service'
-  - 'update any tpr_unit'
-  - 'update own tpr_service'
-  - 'update own tpr_unit'
-  - 'view all tpr_service revisions'
-  - 'view all tpr_unit revisions'
