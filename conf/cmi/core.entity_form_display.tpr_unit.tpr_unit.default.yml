@@ -298,4 +298,5 @@ hidden:
   field_unit_type: true
   hide_description: true
   hide_sidebar_navigation: true
+  ontologyword_ids: true
   show_www: true
