@@ -10,8 +10,8 @@ id: tunnistamo
 label: Tunnistamo
 plugin: tunnistamo
 settings:
-  client_id: placeholder
-  client_secret: placeholder
+  client_id: ''
+  client_secret: ''
   iss_allowed_domains: ''
   is_production: 0
   auto_login: 0
