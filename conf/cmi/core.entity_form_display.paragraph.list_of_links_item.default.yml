@@ -2,13 +2,15 @@ uuid: 0606e8d9-fe05-4729-8fbd-8e58f44f0c36
 langcode: en
 status: true
 dependencies:
+  enforced:
+    module:
+      - linkit
   config:
     - field.field.paragraph.list_of_links_item.field_list_of_links_desc
     - field.field.paragraph.list_of_links_item.field_list_of_links_image
     - field.field.paragraph.list_of_links_item.field_list_of_links_link
     - paragraphs.paragraphs_type.list_of_links_item
   module:
-    - hdbt_admin_editorial
     - media_library
 _core:
   default_config_hash: jfHJZwLuH17r7PFmMseZ4ISpcNgvIU-9UJlqgZB3i5g
@@ -37,11 +39,8 @@ content:
     weight: 1
     region: content
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
-      linkit_profile: tpr_content
-      linkit_auto_link_text: 0
-      link_target: ''
+      linkit_auto_link_text: false
+      linkit_profile: helfi
     third_party_settings: {  }
 hidden:
   created: true

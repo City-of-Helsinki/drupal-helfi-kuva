@@ -1,4 +1,5 @@
 uuid: 9f27b75c-28b4-4bd9-8b85-32cc0e558417
+config_rewrite: replace
 langcode: en
 status: true
 dependencies:
@@ -19,12 +20,9 @@ content:
     weight: 0
     region: content
     settings:
-      width: 100%
       autocomplete: false
       match_operator: CONTAINS
       match_limit: 20
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
 hidden:
   created: true

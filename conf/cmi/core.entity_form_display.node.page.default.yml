@@ -13,11 +13,12 @@ dependencies:
     - field.field.node.page.field_sidebar_content
     - node.type.page
   module:
-    - hdbt_admin_editorial
+    - hdbt_admin_tools
     - media_library
     - metatag
     - paragraphs
     - path
+    - publication_date
     - scheduler
 _core:
   default_config_hash: DOmyO7EbPLR4QT_AFZyGKWuDjwDK_6cxtWsqZ0RI3qQ
@@ -117,6 +118,7 @@ content:
     region: content
     settings:
       sidebar: false
+      use_details: true
     third_party_settings: {  }
   field_sidebar_content:
     type: paragraphs
@@ -167,6 +169,12 @@ content:
   publish_on:
     type: datetime_timestamp_no_default
     weight: 17
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  published_at:
+    type: publication_date_timestamp
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -228,5 +236,4 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden:
-  hide_sidebar_navigation: true
+hidden: {  }
