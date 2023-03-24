@@ -9,3 +9,5 @@ $config['helfi_proxy.settings']['prefixes'] = [
   'sv' => 'test-kultur-och-fritid',
   'ru' => 'test-culture-and-leisure',
 ];
+
+$config['helfi_global_announcement.settings']['source_environment'] = 'test';
