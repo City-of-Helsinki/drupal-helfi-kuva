@@ -14,6 +14,7 @@ dependencies:
     - metatag
     - paragraphs
     - readonly_field_widget
+    - select2
 _core:
   default_config_hash: g-ZdiLH0rHr8Mv6vni5A3v5v2UQGRdwiwPxs88WA93E
 id: tpr_unit.tpr_unit.default
@@ -38,7 +39,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   accessibility_www:
@@ -48,7 +49,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   address:
@@ -58,7 +59,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   address_postal:
@@ -68,7 +69,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   call_charge_info:
@@ -78,7 +79,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   description:
@@ -88,7 +89,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   email:
@@ -98,7 +99,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   field_content:
@@ -119,6 +120,16 @@ content:
         add_above: '0'
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
+    third_party_settings: {  }
+  field_districts:
+    type: select2_entity_reference
+    weight: 29
+    region: content
+    settings:
+      width: 100%
+      autocomplete: false
+      match_operator: STARTS_WITH
+      match_limit: 10
     third_party_settings: {  }
   field_lower_content:
     type: paragraphs
@@ -146,6 +157,16 @@ content:
     settings:
       sidebar: false
     third_party_settings: {  }
+  field_unit_type:
+    type: entity_reference_autocomplete
+    weight: 28
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   hide_sidebar_navigation:
     type: boolean_checkbox
     weight: 29
@@ -167,7 +188,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   longitude:
@@ -177,7 +198,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   name:
@@ -187,7 +208,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   name_override:
@@ -211,7 +232,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   picture_url:
@@ -221,7 +242,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   picture_url_override:
@@ -233,7 +254,7 @@ content:
     third_party_settings: {  }
   provided_languages:
     type: readonly_field_widget
-    weight: 29
+    weight: 30
     region: content
     settings:
       label: above
@@ -248,7 +269,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   services:
@@ -258,7 +279,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   show_www:
@@ -268,6 +289,11 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   streetview_entrance_url:
     type: readonly_field_widget
     weight: 19
@@ -275,7 +301,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   translation:
@@ -290,13 +316,11 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
 hidden:
   created: true
-  field_unit_type: true
   hide_description: true
-  hide_sidebar_navigation: true
   ontologyword_ids: true
   show_www: true

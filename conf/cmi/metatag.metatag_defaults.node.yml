@@ -18,4 +18,3 @@ tags:
   og_url: '[current-page:url:absolute]'
   twitter_cards_image: '[node:shareable-image]'
   og_image: '[node:shareable-image]'
-  og_site_name: '[site:name]'

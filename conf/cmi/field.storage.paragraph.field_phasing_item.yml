@@ -5,6 +5,9 @@ dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
+  enforced:
+    config:
+      - paragraphs.paragraphs_type.phasing_item
 _core:
   default_config_hash: gR1H_Q_DdEuumPPd-SKzuWOv1OO6jxwlv6FpHO4jatM
 id: paragraph.field_phasing_item
