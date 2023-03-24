@@ -2,9 +2,6 @@ uuid: 0606e8d9-fe05-4729-8fbd-8e58f44f0c36
 langcode: en
 status: true
 dependencies:
-  enforced:
-    module:
-      - linkit
   config:
     - field.field.paragraph.list_of_links_item.field_list_of_links_desc
     - field.field.paragraph.list_of_links_item.field_list_of_links_image
@@ -12,6 +9,9 @@ dependencies:
     - paragraphs.paragraphs_type.list_of_links_item
   module:
     - media_library
+  enforced:
+    module:
+      - linkit
 _core:
   default_config_hash: jfHJZwLuH17r7PFmMseZ4ISpcNgvIU-9UJlqgZB3i5g
 id: paragraph.list_of_links_item.default
@@ -39,8 +39,8 @@ content:
     weight: 1
     region: content
     settings:
-      linkit_auto_link_text: false
       linkit_profile: helfi
+      linkit_auto_link_text: false
     third_party_settings: {  }
 hidden:
   created: true

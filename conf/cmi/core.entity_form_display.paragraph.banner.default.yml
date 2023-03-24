@@ -2,9 +2,6 @@ uuid: 15b84e0d-be0d-421b-a22e-7ac6103baa95
 langcode: en
 status: true
 dependencies:
-  enforced:
-    module:
-      - hdbt_admin_tools
   config:
     - field.field.paragraph.banner.field_banner_desc
     - field.field.paragraph.banner.field_banner_design
@@ -16,6 +13,9 @@ dependencies:
   module:
     - hdbt_admin_tools
     - text
+  enforced:
+    module:
+      - hdbt_admin_tools
 _core:
   default_config_hash: 4k3Vv4YhxAg7eoc4j06MIAQ-EsUX6P3BnCOtc0oAn9k
 id: paragraph.banner.default
