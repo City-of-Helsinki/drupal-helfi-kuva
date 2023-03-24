@@ -1,5 +1,4 @@
 uuid: 9f27b75c-28b4-4bd9-8b85-32cc0e558417
-config_rewrite: replace
 langcode: en
 status: true
 dependencies:
