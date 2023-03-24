@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: XBOd0Lfy5FpXJkeuZi75vBaT7ffFCENINrui5kCVygo
-id: helfi_node_announcement
+id: helfi_announcements
 label: 'Helfi: Announcements'
 label_plural: 'Helfi: Announcements'
 description: ''
@@ -36,7 +36,7 @@ field_mapper_config:
       value: '$.attributes["field_announcement_link"]["title"]'
     announcement_link_url:
       value: '$.attributes["field_announcement_link"]["uri"]'
-storage_client_id: helfi_node_announcement
+storage_client_id: helfi_announcements
 storage_client_config: {  }
 persistent_cache_max_age: 600
 annotation_entity_type_id: null
