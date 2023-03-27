@@ -47,12 +47,12 @@ display:
       filters:
         combine:
           expose:
-            label: Search
+            label: Sök
         langcode:
           expose:
             label: Språk
       header:
         result:
-          content: 'Displaying @start - @end of @total'
+          content: 'Visar @start - @end av @total'
   page_1:
     display_title: Sida

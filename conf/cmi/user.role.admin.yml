@@ -34,6 +34,7 @@ dependencies:
     - paragraphs_library
     - path
     - pathauto
+    - publication_date
     - redirect
     - role_delegation
     - scheduler
@@ -141,6 +142,7 @@ permissions:
   - 'edit paragraph library item'
   - 'edit remote entities'
   - 'edit terms in keywords'
+  - 'mark as hidden in editoria11y'
   - 'revert all revisions'
   - 'revert all tpr_service revisions'
   - 'revert all tpr_unit revisions'
