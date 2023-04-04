@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.tpr_unit.tpr_unit.field_content
+    - field.field.tpr_unit.tpr_unit.field_districts
     - field.field.tpr_unit.tpr_unit.field_lower_content
     - field.field.tpr_unit.tpr_unit.field_metatags
     - field.field.tpr_unit.tpr_unit.field_unit_type
@@ -13,10 +14,11 @@ dependencies:
     - media_library
     - metatag
     - paragraphs
+    - path
     - readonly_field_widget
     - select2
 _core:
-  default_config_hash: g-ZdiLH0rHr8Mv6vni5A3v5v2UQGRdwiwPxs88WA93E
+  default_config_hash: YWnRrqJSaeQZEwAqgArp65Mhok9h6tEU1KTO5KzRl80
 id: tpr_unit.tpr_unit.default
 targetEntityType: tpr_unit
 bundle: tpr_unit
@@ -29,7 +31,7 @@ content:
     settings:
       label: above
       formatter_type: null
-      formatter_settings: null
+      formatter_settings: {  }
       show_description: false
     third_party_settings: {  }
   accessibility_phone:
