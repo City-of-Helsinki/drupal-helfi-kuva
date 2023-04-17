@@ -2,6 +2,8 @@ uuid: 20159cb6-954c-4d88-9409-6828261ec6ef
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Z1hhaGuFxO5u3okdCurl5uTPrPMl4SbozTZaBotYy3k
 id: preference
 label: Preference
 description:
