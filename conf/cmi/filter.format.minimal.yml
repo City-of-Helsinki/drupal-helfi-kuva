@@ -8,7 +8,7 @@ dependencies:
     - linkit
 _core:
   default_config_hash: hV3fzU3AxnHiIrc6DGsB6CFBPRqz3HamDmJZPVUiWWg
-name: Minimaalinen
+name: Minimal
 format: minimal
 weight: 0
 filters:
