@@ -118,7 +118,7 @@ content:
     region: content
     settings:
       title: Paragraph
-      title_plural: Paragraphs
+      title_plural: Lohkot
       edit_mode: open
       closed_mode: summary
       autocollapse: none
@@ -137,7 +137,7 @@ content:
     region: content
     settings:
       title: Paragraph
-      title_plural: Paragraphs
+      title_plural: Lohkot
       edit_mode: open
       closed_mode: summary
       autocollapse: none
@@ -156,6 +156,7 @@ content:
     region: content
     settings:
       sidebar: false
+      use_details: true
     third_party_settings: {  }
   field_unit_type:
     type: entity_reference_autocomplete
@@ -373,4 +374,3 @@ hidden:
   created: true
   hide_description: true
   ontologyword_ids: true
-  show_www: true
