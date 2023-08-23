@@ -8,6 +8,7 @@ $config['helfi_proxy.settings']['prefixes'] = [
   'fi' => 'test-kulttuuri-ja-vapaa-aika',
   'sv' => 'test-kultur-och-fritid',
   'ru' => 'test-culture-and-leisure',
+  'zxx' => 'test-culture-and-leisure',
 ];
 
 $config['helfi_global_announcement.settings']['source_environment'] = 'test';

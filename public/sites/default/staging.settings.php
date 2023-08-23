@@ -8,4 +8,5 @@ $config['helfi_proxy.settings']['prefixes'] = [
   'fi' => 'staging-kulttuuri-ja-vapaa-aika',
   'sv' => 'staging-kultur-och-fritid',
   'ru' => 'staging-culture-and-leisure',
+  'zxx' => 'staging-culture-and-leisure',
 ];
