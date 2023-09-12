@@ -2639,10 +2639,6 @@
                 {
                     "name": "tatarbj",
                     "homepage": "https://www.drupal.org/user/649590"
-                },
-                {
-                    "name": "volkswagenchick",
-                    "homepage": "https://www.drupal.org/user/3332522"
                 }
             ],
             "description": "Adds configuration to the system breadcrumbs.",
@@ -3751,16 +3747,16 @@
         },
         {
             "name": "drupal/hdbt",
-            "version": "5.6.0",
+            "version": "5.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt.git",
-                "reference": "b2b03fa78cb21beb4f74e3a2db1ad6fe083c6956"
+                "reference": "d4eeff38bc61f431613c8fa9a4d92a8755f66b09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/b2b03fa78cb21beb4f74e3a2db1ad6fe083c6956",
-                "reference": "b2b03fa78cb21beb4f74e3a2db1ad6fe083c6956",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/d4eeff38bc61f431613c8fa9a4d92a8755f66b09",
+                "reference": "d4eeff38bc61f431613c8fa9a4d92a8755f66b09",
                 "shasum": ""
             },
             "require": {
@@ -3778,10 +3774,10 @@
                 "Drupal"
             ],
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/5.6.0",
+                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/5.6.1",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt/issues"
             },
-            "time": "2023-09-06T13:06:13+00:00"
+            "time": "2023-09-11T12:42:43+00:00"
         },
         {
             "name": "drupal/hdbt_admin",
@@ -4011,16 +4007,16 @@
         },
         {
             "name": "drupal/helfi_platform_config",
-            "version": "3.4.0",
+            "version": "3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config.git",
-                "reference": "88784de7e0df5fe2e051ee352bace872d819e951"
+                "reference": "09c19828ae17b7780efae2f38c5554849deaa6fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/88784de7e0df5fe2e051ee352bace872d819e951",
-                "reference": "88784de7e0df5fe2e051ee352bace872d819e951",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/09c19828ae17b7780efae2f38c5554849deaa6fe",
+                "reference": "09c19828ae17b7780efae2f38c5554849deaa6fe",
                 "shasum": ""
             },
             "require": {
@@ -4113,9 +4109,6 @@
                     "drupal/social_media": {
                         "Add missing schema to social media. (https://www.drupal.org/project/social_media/issues/2986819)": "https://git.drupalcode.org/project/social_media/-/commit/1964f42e5a6fb5d7a97fdf8ec5ca259bc6c5b19a.patch"
                     },
-                    "drupal/translatable_menu_link_uri": {
-                        "[#UHF-8616] D10 compatibility patch for translatable menu link uri": "https://raw.githubusercontent.com/City-of-Helsinki/drupal-helfi-platform-config/c03c575cdd293b7933248cfb4d0fb7b47be5422b/patches/translatable_menu_link_uri_d10.patch"
-                    },
                     "drupal/simple_sitemap": {
                         "[#UHF-8514] Fix frontpage URLs in sitemap. (https://www.drupal.org/project/simple_sitemap/issues/3264573)": "https://www.drupal.org/files/issues/2022-02-15/3264573-2.patch"
                     }
@@ -4126,10 +4119,10 @@
             ],
             "description": "HELfi platform config",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/3.4.0",
+                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/3.4.4",
                 "issues": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/issues"
             },
-            "time": "2023-09-06T13:06:18+00:00"
+            "time": "2023-09-12T06:53:57+00:00"
         },
         {
             "name": "drupal/helfi_proxy",
@@ -6209,26 +6202,26 @@
         },
         {
             "name": "drupal/translatable_menu_link_uri",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/translatable_menu_link_uri.git",
-                "reference": "2.0.0"
+                "reference": "2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/translatable_menu_link_uri-2.0.0.zip",
-                "reference": "2.0.0",
-                "shasum": "6960a485565d886cf35ee6dd56310de47e04e430"
+                "url": "https://ftp.drupal.org/files/projects/translatable_menu_link_uri-2.1.0.zip",
+                "reference": "2.1.0",
+                "shasum": "3bafa0a19761524560a2d232c945f10643e91053"
             },
             "require": {
-                "drupal/core": "^8 || ^9"
+                "drupal/core": "^8 || ^9 || ^10"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0",
-                    "datestamp": "1597491393",
+                    "version": "2.1.0",
+                    "datestamp": "1694361965",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
