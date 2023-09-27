@@ -15,7 +15,7 @@ provider: null
 plugin: ibm_chat_app
 settings:
   id: ibm_chat_app
-  label: 'LUPU Chat'
+  label: 'LUPU Chatbot'
   label_display: '0'
   provider: helfi_platform_config
   hostname: 'https://coh-chat-app-prod.ow6i4n9pdzm.eu-de.codeengine.appdomain.cloud'
