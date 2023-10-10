@@ -133,7 +133,23 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 23
+    region: content
+  latitude:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 24
+    region: content
+  longitude:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: { }
+    weight: 23
     region: content
   links:
     type: tpr_connection
@@ -231,6 +247,13 @@ content:
     third_party_settings: {  }
     weight: 16
     region: content
+  unit_picture_caption:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
   www:
     type: link
     label: hidden
@@ -248,7 +271,5 @@ hidden:
   field_unit_type: true
   hide_description: true
   langcode: true
-  latitude: true
-  longitude: true
   show_www: true
   streetview_entrance_url: true
