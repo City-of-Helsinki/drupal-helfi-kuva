@@ -1,0 +1,29 @@
+uuid: d800b869-52dd-4964-b73b-f6aecb40fbfb
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_platform_config
+    - system
+  theme:
+    - hdbt
+id: ibmchatapp
+theme: hdbt
+region: attachments
+weight: 0
+provider: null
+plugin: ibm_chat_app
+settings:
+  id: ibm_chat_app
+  label: 'LUPU Chatbot'
+  label_display: '0'
+  provider: helfi_platform_config
+  hostname: 'https://coh-chat-app-prod.ow6i4n9pdzm.eu-de.codeengine.appdomain.cloud'
+  engagementId: sports-and-culture
+  tenantId: www-hel-fi-prod
+  assistantId: sports-and-culture
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/ulkoilu-puistot-ja-luontokohteet\r\n/ulkoilu-puistot-ja-luontokohteet/ulkoilualueet\r\n/ulkoilu-puistot-ja-luontokohteet/puistot\r\n/ulkoilu-puistot-ja-luontokohteet/saaret\r\n/ulkoilu-puistot-ja-luontokohteet/uimarannat\r\n/ulkoilu-puistot-ja-luontokohteet/uimarannat/uimaveden-laatu-ja-sinilevat\r\n/ulkoilu-puistot-ja-luontokohteet/uimarannat/maauimalat\r\n/ulkoilu-puistot-ja-luontokohteet/retkeily\r\n/ulkoilu-puistot-ja-luontokohteet/kalastus\r\n/ulkoilu-puistot-ja-luontokohteet/veneily\r\n/liikunta"
