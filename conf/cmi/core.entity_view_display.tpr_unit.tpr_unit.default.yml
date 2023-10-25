@@ -18,7 +18,7 @@ dependencies:
     - telephone
     - text
 _core:
-  default_config_hash: DOuUkveApF8w1Src7sCS9GnmmA_IpAqLzHYZYzCmPPk
+  default_config_hash: tfkOTFeDgVhyd9NcyUP7yambOlzTfsjNcKwlLHPsbhw
 id: tpr_unit.tpr_unit.default
 targetEntityType: tpr_unit
 bundle: tpr_unit
@@ -143,20 +143,20 @@ content:
     third_party_settings: {  }
     weight: 24
     region: content
-  longitude:
-    type: string
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: { }
-    weight: 23
-    region: content
   links:
     type: tpr_connection
     label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 25
+    region: content
+  longitude:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 23
     region: content
   name:
     type: string
@@ -246,6 +246,23 @@ content:
       link: true
     third_party_settings: {  }
     weight: 16
+    region: content
+  toc_enabled:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  topical:
+    type: tpr_connection
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 27
     region: content
   unit_picture_caption:
     type: basic_string
