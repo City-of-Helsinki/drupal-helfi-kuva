@@ -13,7 +13,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: F51sD0Cq9vLT0XwoXF2X3m3DwiZ9XdMB-QBwdAFxxSY
+  default_config_hash: hYT61xkhP2zXO2VXijtXVPkoENlhLvIv5DRycKMm6iE
 id: paragraph.remote_video.default
 targetEntityType: paragraph
 bundle: remote_video
