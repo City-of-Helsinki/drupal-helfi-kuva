@@ -12,3 +12,5 @@ $config['helfi_proxy.settings']['prefixes'] = [
 ];
 
 $config['helfi_global_announcement.settings']['source_environment'] = 'test';
+
+$config['openid_connect.client.tunnistamo']['settings']['debug_log'] = TRUE;
