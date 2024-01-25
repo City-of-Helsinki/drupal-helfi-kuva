@@ -4267,16 +4267,16 @@
         },
         {
             "name": "drupal/helfi_tunnistamo",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-tunnistamo.git",
-                "reference": "95844e13d22af91f3ae4d69f9e55edb63215943a"
+                "reference": "07c25d907de18d26f203463203129bd67608526d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-tunnistamo/zipball/95844e13d22af91f3ae4d69f9e55edb63215943a",
-                "reference": "95844e13d22af91f3ae4d69f9e55edb63215943a",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-tunnistamo/zipball/07c25d907de18d26f203463203129bd67608526d",
+                "reference": "07c25d907de18d26f203463203129bd67608526d",
                 "shasum": ""
             },
             "require": {
@@ -4293,10 +4293,10 @@
             ],
             "description": "Tunnistamo integration",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-tunnistamo/tree/3.0.3",
+                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-tunnistamo/tree/3.0.4",
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-tunnistamo/issues"
             },
-            "time": "2024-01-09T07:24:18+00:00"
+            "time": "2024-01-25T07:06:50+00:00"
         },
         {
             "name": "drupal/image_style_quality",
@@ -4413,17 +4413,17 @@
         },
         {
             "name": "drupal/imagemagick",
-            "version": "3.6.0",
+            "version": "3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/imagemagick.git",
-                "reference": "8.x-3.6"
+                "reference": "8.x-3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/imagemagick-8.x-3.6.zip",
-                "reference": "8.x-3.6",
-                "shasum": "b4efc5ff6ab5469475f0ef7242eba0c7eda1c75c"
+                "url": "https://ftp.drupal.org/files/projects/imagemagick-8.x-3.7.zip",
+                "reference": "8.x-3.7",
+                "shasum": "2698db0ccc4a76d44ebbbfcabe9e70d25ae3db9b"
             },
             "require": {
                 "drupal/core": "^10.1",
@@ -4433,8 +4433,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.6",
-                    "datestamp": "1703241142",
+                    "version": "8.x-3.7",
+                    "datestamp": "1706096705",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
