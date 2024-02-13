@@ -1,17 +1,14 @@
 <?php
 
-$config['helfi_proxy.settings']['tunnistamo_return_url'] = '/fi/test-kulttuuri-ja-vapaa-aika/openid-connect/tunnistamo';
-// These should be unique for each environment (dev-, test-, staging-)
-$config['helfi_proxy.settings']['asset_path'] = 'test-kuva-assets';
+$config['helfi_proxy.settings']['tunnistamo_return_url'] = '/fi/kulttuuri-ja-vapaa-aika/openid-connect/tunnistamo';
+$config['helfi_proxy.settings']['asset_path'] = 'kuva-assets';
 $config['helfi_proxy.settings']['prefixes'] = [
-  'en' => 'test-culture-and-leisure',
-  'fi' => 'test-kulttuuri-ja-vapaa-aika',
-  'sv' => 'test-kultur-och-fritid',
-  'ru' => 'test-culture-and-leisure',
-  'zxx' => 'test-culture-and-leisure',
+  'en' => 'culture-and-leisure',
+  'fi' => 'kulttuuri-ja-vapaa-aika',
+  'sv' => 'kultur-och-fritid',
+  'ru' => 'culture-and-leisure',
+  'zxx' => 'culture-and-leisure',
 ];
-
-$config['helfi_global_announcement.settings']['source_environment'] = 'test';
 
 $config['openid_connect.client.tunnistamo']['settings']['debug_log'] = TRUE;
 $config['openid_connect.client.tunnistamo']['settings']['ad_roles'] = [
