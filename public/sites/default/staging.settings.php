@@ -1,12 +1,3 @@
 <?php
 
-$config['helfi_proxy.settings']['tunnistamo_return_url'] = '/fi/staging-kulttuuri-ja-vapaa-aika/openid-connect/tunnistamo';
-// These should be unique for each environment (dev-, test-, staging-)
-$config['helfi_proxy.settings']['asset_path'] = 'staging-kuva-assets';
-$config['helfi_proxy.settings']['prefixes'] = [
-  'en' => 'staging-culture-and-leisure',
-  'fi' => 'staging-kulttuuri-ja-vapaa-aika',
-  'sv' => 'staging-kultur-och-fritid',
-  'ru' => 'staging-culture-and-leisure',
-  'zxx' => 'staging-culture-and-leisure',
-];
+$config['helfi_proxy.settings']['tunnistamo_return_url'] = '/fi/kulttuuri-ja-vapaa-aika/openid-connect/tunnistamo';
