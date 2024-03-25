@@ -84,3 +84,4 @@ display:
           exception:
             title: Alla
 description: 'Hitta och hantera schemalagt innehåll.'
+label: 'Scheduled content'
