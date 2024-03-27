@@ -27,6 +27,7 @@ exec "/crons/update-translations.sh" &
 # Uncomment this to enable content scheduler
 exec "/crons/content-scheduler.sh" &
 exec "/crons/pubsub.sh" &
+exec "/crons/linked-events.sh" &
 
 while true
 do
