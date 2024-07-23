@@ -41,6 +41,6 @@ This will log you inside the app container:
 $ make shell
 ```
 
-## Instance specific modifications
+## Instance specific features
 
 There are no instance specific modifications in Kuva.
