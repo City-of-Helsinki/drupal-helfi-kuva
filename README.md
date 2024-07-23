@@ -43,4 +43,4 @@ $ make shell
 
 ## Instance specific features
 
-There are no instance specific modifications in Kuva.
+Kuva has no instance specific features.
