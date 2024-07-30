@@ -1,6 +1,7 @@
-# City of Helsinki - Kulttuuri ja Vapaa-aika Drupal 9 project
+# City of Helsinki - KUVA Drupal project
 
-Kuva (Kulttuuri ja vapaa-aika) is the site for information related to culture and spare time activities.
+KUVA, short for Kulttuuri ja vapaa-aika, provides information about cultural and leisure activities in the city of
+Helsinki.
 
 ## Environments
 
@@ -43,4 +44,4 @@ $ make shell
 
 ## Instance specific features
 
-Kuva has no instance specific features.
+KUVA has no instance specific features.
