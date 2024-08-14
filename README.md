@@ -1,13 +1,14 @@
-# City of Helsinki - Kulttuuri ja Vapaa-aika Drupal 9 project
+# City of Helsinki - KUVA Drupal project
 
-Description of your project.
+KUVA, short for Kulttuuri ja vapaa-aika, provides information about cultural and leisure activities in the city of
+Helsinki.
 
 ## Environments
 
 Env | Branch | Drush alias | URL
 --- | ------ | ----------- | ---
 development | * | - | http://helfi-kuva.docker.so/
-production | main | @main | TBD
+production | main | @main | https://www.hel.fi/fi/kulttuuri-ja-vapaa-aika
 
 ## Requirements
 
@@ -40,3 +41,7 @@ This will log you inside the app container:
 ```
 $ make shell
 ```
+
+## Instance specific features
+
+KUVA has no instance specific features.
