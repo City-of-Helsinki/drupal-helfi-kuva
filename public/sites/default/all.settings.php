@@ -22,6 +22,9 @@ $additionalEnvVars = [
   'TUNNISTAMO_ENVIRONMENT_URL',
   'SENTRY_DSN',
   'SENTRY_ENVIRONMENT',
+  // 'AMQ_BROKERS',
+  // 'AMQ_USER',
+  // 'AMQ_PASSWORD',
 ];
 
 foreach ($additionalEnvVars as $var) {
