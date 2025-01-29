@@ -1,5 +1,5 @@
-label: Redirect
-description: 'List of redirects'
+label: Omdirigera
+description: 'Lista över omdirigeringar'
 display:
   default:
     display_title: Förvald
