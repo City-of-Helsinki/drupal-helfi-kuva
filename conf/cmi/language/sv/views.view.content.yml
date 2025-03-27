@@ -4,19 +4,16 @@ display:
       fields:
         langcode:
           label: Språk
-          separator: ', '
         title:
           label: Titel
         type:
           label: Innehållstyp
-          separator: ', '
         name:
           label: Författare
         status:
           settings:
             format_custom_false: 'Ej publicerad'
             format_custom_true: Publicerad
-          label: Status
         changed:
           label: Uppdaterad
         operations:
@@ -54,8 +51,6 @@ display:
                 title: Publicerad
               2:
                 title: 'Ej publicerad'
-          expose:
-            label: Status
         langcode:
           expose:
             label: Språk
