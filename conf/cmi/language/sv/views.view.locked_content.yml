@@ -25,10 +25,13 @@ display:
           action_title: Åtgärd
         title:
           label: Titel
+          separator: ', '
         type:
           label: Innehållstyp
+          separator: ', '
         name:
           label: 'Lås ägare'
+          separator: ', '
         operations:
           label: Funktioner
       filters:
