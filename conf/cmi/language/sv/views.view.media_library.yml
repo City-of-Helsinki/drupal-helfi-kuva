@@ -57,6 +57,7 @@ display:
         langcode:
           expose:
             label: Språk
+      title: Media
   page:
     display_title: Sida
     display_options:
@@ -73,6 +74,8 @@ display:
             text: 'Radera {{ name }}'
             alt: 'Radera {{ name }}'
           text: Radera
+        name:
+          separator: ', '
   widget:
     display_options:
       arguments:
@@ -88,6 +91,7 @@ display:
           label: Rutnät
         display_link_table:
           label: Tabell
+    display_title: Widget
   widget_table:
     display_title: 'Gränssnittskomponent (tabell)'
     display_options:
@@ -113,3 +117,4 @@ display:
           label: Rutnät
         display_link_table:
           label: Tabell
+label: 'Media library'
