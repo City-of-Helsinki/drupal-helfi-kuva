@@ -22,6 +22,8 @@ $additionalEnvVars = [
   'TUNNISTAMO_ENVIRONMENT_URL',
   'SENTRY_DSN',
   'SENTRY_ENVIRONMENT',
+  // Project specific variables.
+  'MATOMO_SITE_ID',
   // 'AMQ_BROKERS',
   // 'AMQ_USER',
   // 'AMQ_PASSWORD',
