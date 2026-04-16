@@ -13,13 +13,9 @@ types:
   redirect: {  }
   taxonomy_term:
     '*': '*'
-  user: {  }
-  paragraph: {  }
-  media: {  }
-  tpr_service:
-    '*': '*'
-  tpr_unit:
-    '*': '*'
+  user: { }
+  paragraph: { }
+  media: { }
 types_translation_lock: {  }
 form_op_lock:
   crop:
