@@ -1,4 +1,4 @@
-uuid: 06589015-09e2-4790-a15d-c3265d250f81
+uuid: d1300e82-4334-4f32-a380-72f29f873909
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.list_of_links
   module:
     - options
+_core:
+  default_config_hash: NUBrxNvdzLaN3oDWgs_1ujqLGakuKiC_BEmYrtFGMYY
 id: paragraph.list_of_links.field_list_of_links_design
 field_name: field_list_of_links_design
 entity_type: paragraph
