@@ -4667,16 +4667,16 @@
         },
         {
             "name": "drupal/helfi_azure_fs",
-            "version": "2.2.4",
+            "version": "2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-azure-fs.git",
-                "reference": "ebfbfc86abda74181b1d07aae7f57f400cf31190"
+                "reference": "ec18c5f13f032e66eacf4c276d4c92bbae3f6951"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-azure-fs/zipball/ebfbfc86abda74181b1d07aae7f57f400cf31190",
-                "reference": "ebfbfc86abda74181b1d07aae7f57f400cf31190",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-azure-fs/zipball/ec18c5f13f032e66eacf4c276d4c92bbae3f6951",
+                "reference": "ec18c5f13f032e66eacf4c276d4c92bbae3f6951",
                 "shasum": ""
             },
             "require": {
@@ -4697,10 +4697,10 @@
             ],
             "description": "Helfi - Azure FS",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-azure-fs/tree/2.2.4",
+                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-azure-fs/tree/2.2.5",
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-azure-fs/issues"
             },
-            "time": "2026-07-16T05:24:25+00:00"
+            "time": "2026-08-13T05:39:39+00:00"
         },
         {
             "name": "drupal/helfi_drupal_tools",
