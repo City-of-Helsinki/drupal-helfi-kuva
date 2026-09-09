@@ -1,36 +1,43 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Function hdbt_subtheme_preprocess_block\\(\\) has no return type specified\\.$#"
+			message: '#^Function hdbt_subtheme_preprocess_block\(\) has no return type specified\.$#'
+			identifier: missingType.return
 			count: 1
 			path: public/themes/custom/hdbt_subtheme/hdbt_subtheme.theme
 
 		-
-			message: "#^Function hdbt_subtheme_preprocess_block\\(\\) has parameter \\$variables with no type specified\\.$#"
+			message: '#^Function hdbt_subtheme_preprocess_block\(\) has parameter \$variables with no type specified\.$#'
+			identifier: missingType.parameter
 			count: 1
 			path: public/themes/custom/hdbt_subtheme/hdbt_subtheme.theme
 
 		-
-			message: "#^Function hdbt_subtheme_theme_suggestions_block_alter\\(\\) has no return type specified\\.$#"
+			message: '#^Function hdbt_subtheme_theme_suggestions_block_alter\(\) has no return type specified\.$#'
+			identifier: missingType.return
 			count: 1
 			path: public/themes/custom/hdbt_subtheme/hdbt_subtheme.theme
 
 		-
-			message: "#^Function hdbt_subtheme_theme_suggestions_block_alter\\(\\) has parameter \\$suggestions with no type specified\\.$#"
+			message: '#^Function hdbt_subtheme_theme_suggestions_block_alter\(\) has parameter \$suggestions with no type specified\.$#'
+			identifier: missingType.parameter
 			count: 1
 			path: public/themes/custom/hdbt_subtheme/hdbt_subtheme.theme
 
 		-
-			message: "#^Function hdbt_subtheme_theme_suggestions_menu_alter\\(\\) has no return type specified\\.$#"
+			message: '#^Function hdbt_subtheme_theme_suggestions_menu_alter\(\) has no return type specified\.$#'
+			identifier: missingType.return
 			count: 1
 			path: public/themes/custom/hdbt_subtheme/hdbt_subtheme.theme
 
 		-
-			message: "#^Function hdbt_subtheme_theme_suggestions_menu_alter\\(\\) has parameter \\$suggestions with no type specified\\.$#"
+			message: '#^Function hdbt_subtheme_theme_suggestions_menu_alter\(\) has parameter \$suggestions with no type specified\.$#'
+			identifier: missingType.parameter
 			count: 1
 			path: public/themes/custom/hdbt_subtheme/hdbt_subtheme.theme
 
 		-
-			message: "#^Function hdbt_subtheme_theme_suggestions_menu_alter\\(\\) has parameter \\$variables with no type specified\\.$#"
+			message: '#^Function hdbt_subtheme_theme_suggestions_menu_alter\(\) has parameter \$variables with no type specified\.$#'
+			identifier: missingType.parameter
 			count: 1
 			path: public/themes/custom/hdbt_subtheme/hdbt_subtheme.theme
