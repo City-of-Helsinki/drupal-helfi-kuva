@@ -15,6 +15,7 @@ dependencies:
     - node.type.page
     - taxonomy.vocabulary.keywords
   module:
+    - ai
     - block
     - config_translation
     - content_lock
@@ -24,7 +25,6 @@ dependencies:
     - external_entities
     - file
     - filter
-    - hdbt_cookie_banner
     - helfi_ai
     - helfi_api_base
     - helfi_recommendations
@@ -71,13 +71,13 @@ permissions:
   - 'access tpr_unit overview'
   - 'access user profiles'
   - 'administer blocks'
-  - 'administer hdbt_cookie_banner'
   - 'administer helfi_search'
   - 'administer menu'
   - 'administer nodes'
   - 'administer paragraphs library'
   - 'administer pathauto'
   - 'administer redirects'
+  - 'administer site configuration'
   - 'administer sitemap settings'
   - 'administer tpr_service'
   - 'administer tpr_unit'
@@ -155,6 +155,7 @@ permissions:
   - 'edit paragraph library item'
   - 'edit remote entities'
   - 'edit terms in keywords'
+  - 'manage ai prompts'
   - 'mark as hidden in editoria11y'
   - 'rebuild node access permissions'
   - 'revert all revisions'
