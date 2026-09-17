@@ -1,0 +1,4 @@
+'administer path classes':
+  title: 'Administer style overrides by path'
+  description: 'Configure which CSS class is added to the html body for specific paths.'
+  restrict access: true

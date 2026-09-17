@@ -1,0 +1,9 @@
+helfi_path_classes.settings:
+  path: '/admin/config/system/path-classes'
+  defaults:
+    _form: '\Drupal\helfi_path_classes\Form\SettingsForm'
+    _title: 'Style overrides by path'
+  requirements:
+    _permission: 'administer path classes'
+  options:
+    _admin_route: TRUE

@@ -1,0 +1,24 @@
+helfi_path_classes.settings:
+  type: config_object
+  label: 'Style overrides by path settings'
+  mapping:
+    overrides:
+      type: sequence
+      label: 'Style overrides'
+      sequence:
+        type: helfi_path_classes.override
+
+helfi_path_classes.override:
+  type: mapping
+  label: 'Style override'
+  mapping:
+    path:
+      type: label
+      label: 'Path'
+      translatable: true
+    style:
+      type: string
+      label: 'Style override'
+    weight:
+      type: integer
+      label: 'Weight'

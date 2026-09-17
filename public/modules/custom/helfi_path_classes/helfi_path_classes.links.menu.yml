@@ -1,0 +1,6 @@
+helfi_path_classes.settings:
+  title: 'Style overrides by path'
+  description: 'Configure which CSS class is added to the html body for specific paths.'
+  parent: system.admin_config_system
+  route_name: helfi_path_classes.settings
+  weight: 10

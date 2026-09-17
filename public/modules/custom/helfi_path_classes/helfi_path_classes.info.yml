@@ -1,0 +1,7 @@
+name: 'Path classes'
+description: 'Adds a CSS class to the html body based on configured style overrides for specific paths.'
+type: module
+core_version_requirement: ^10 || ^11 || ^12
+package: Custom
+dependencies:
+  - drupal:path_alias
