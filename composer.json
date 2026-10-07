@@ -49,7 +49,7 @@
         },
         "audit": {
             "abandoned": "report",
-            "ignore": ["GHSA-mg8j-w93w-xjgc"]
+            "ignore": ["CVE-2026-102601"]
         }
     },
     "extra": {
@@ -124,6 +124,7 @@
         "copy-commit-message-script": "make copy-commit-message-script",
         "post-install-cmd": [
             "@copy-commit-message-script"
-        ]
+        ],
+        "pre-command-run": "bash tools/composer/require-container.sh"
     }
 }
