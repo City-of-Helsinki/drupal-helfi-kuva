@@ -5,6 +5,9 @@
  * Contains site specific overrides.
  */
 
+// Sentry DSN for React.
+$config['react_search.settings']['sentry_dsn_react'] = getenv('SENTRY_DSN_REACT');
+
 $additionalEnvVars = [
   'AZURE_BLOB_STORAGE_SAS_TOKEN|BLOBSTORAGE_SAS_TOKEN',
   'AZURE_BLOB_STORAGE_NAME',

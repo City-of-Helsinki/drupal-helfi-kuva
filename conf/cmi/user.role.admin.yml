@@ -15,7 +15,6 @@ dependencies:
     - node.type.page
     - taxonomy.vocabulary.keywords
   module:
-    - ai
     - block
     - config_translation
     - content_lock
@@ -30,6 +29,7 @@ dependencies:
     - helfi_recommendations
     - helfi_search
     - helfi_tpr
+    - helfi_users
     - locale
     - media
     - menu_link_attributes
@@ -158,7 +158,6 @@ permissions:
   - 'edit paragraph library item'
   - 'edit remote entities'
   - 'edit terms in keywords'
-  - 'manage ai prompts'
   - 'mark as hidden in editoria11y'
   - 'rebuild node access permissions'
   - 'revert all revisions'
@@ -196,6 +195,7 @@ permissions:
   - 'update media'
   - 'update own tpr_service'
   - 'update own tpr_unit'
+  - 'use favorites'
   - 'use helfi ai summary'
   - 'use helfi ai title suggestion'
   - 'use helfi ai tone check'
