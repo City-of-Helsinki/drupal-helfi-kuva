@@ -15,7 +15,6 @@ dependencies:
     - node.type.page
     - taxonomy.vocabulary.keywords
   module:
-    - ai
     - block
     - config_translation
     - content_lock
@@ -159,7 +158,6 @@ permissions:
   - 'edit paragraph library item'
   - 'edit remote entities'
   - 'edit terms in keywords'
-  - 'manage ai prompts'
   - 'mark as hidden in editoria11y'
   - 'rebuild node access permissions'
   - 'revert all revisions'
